@@ -1,0 +1,950 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\HDL\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s
+1 -n 3 -fastpaths -xml system_top.twx system_top.ncd -o system_top.twr
+system_top.pcf -ucf system_top.ucf
+
+Design file:              system_top.ncd
+Physical constraint file: system_top.pcf
+Device,package,speed:     xc7z010,clg400,C,-1 (PRODUCTION 1.08 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more 
+   information, see the TSI report.  Please consult the Xilinx Command Line 
+   Tools User Guide for information on generating a TSI report.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: PATH "TS_axi_interconnect_1_reset_resync_path" TIG;
+
+ 2 paths analyzed, 2 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2 (SLICE_X17Y24.CX), 1 path
+--------------------------------------------------------------------------------
+Delay (setup path):     1.170ns (data path - clock path skew + uncertainty)
+  Source:               system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1 (FF)
+  Destination:          system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2 (FF)
+  Data Path Delay:      1.135ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 0.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1 to system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X17Y24.BQ      Tcko                  0.456   system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync<2>
+                                                       system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1
+    SLICE_X17Y24.CX      net (fanout=1)        0.618   system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync<1>
+    SLICE_X17Y24.CLK     Tdick                 0.061   system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync<2>
+                                                       system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2
+    -------------------------------------------------  ---------------------------
+    Total                                      1.135ns (0.517ns logic, 0.618ns route)
+                                                       (45.6% logic, 54.4% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1 (SLICE_X17Y24.BX), 1 path
+--------------------------------------------------------------------------------
+Delay (setup path):     1.092ns (data path - clock path skew + uncertainty)
+  Source:               system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0 (FF)
+  Destination:          system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1 (FF)
+  Data Path Delay:      1.057ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 0.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0 to system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X17Y24.AQ      Tcko                  0.456   system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync<2>
+                                                       system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0
+    SLICE_X17Y24.BX      net (fanout=1)        0.520   system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync<0>
+    SLICE_X17Y24.CLK     Tdick                 0.081   system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync<2>
+                                                       system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1
+    -------------------------------------------------  ---------------------------
+    Total                                      1.057ns (0.537ns logic, 0.520ns route)
+                                                       (50.8% logic, 49.2% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: PATH "TS_axi_interconnect_1_reset_resync_path" TIG;
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1 (SLICE_X17Y24.BX), 1 path
+--------------------------------------------------------------------------------
+Delay (hold path):      0.245ns (datapath - clock path skew - uncertainty)
+  Source:               system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0 (FF)
+  Destination:          system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1 (FF)
+  Data Path Delay:      0.245ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0 to system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X17Y24.AQ      Tcko                  0.141   system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync<2>
+                                                       system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0
+    SLICE_X17Y24.BX      net (fanout=1)        0.170   system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync<0>
+    SLICE_X17Y24.CLK     Tckdi       (-Th)     0.066   system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync<2>
+                                                       system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.245ns (0.075ns logic, 0.170ns route)
+                                                       (30.6% logic, 69.4% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2 (SLICE_X17Y24.CX), 1 path
+--------------------------------------------------------------------------------
+Delay (hold path):      0.340ns (datapath - clock path skew - uncertainty)
+  Source:               system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1 (FF)
+  Destination:          system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2 (FF)
+  Data Path Delay:      0.340ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1 to system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X17Y24.BQ      Tcko                  0.141   system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync<2>
+                                                       system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1
+    SLICE_X17Y24.CX      net (fanout=1)        0.269   system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync<1>
+    SLICE_X17Y24.CLK     Tckdi       (-Th)     0.070   system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync<2>
+                                                       system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2
+    -------------------------------------------------  ---------------------------
+    Total                                      0.340ns (0.071ns logic, 0.269ns route)
+                                                       (20.9% logic, 79.1% route)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_0" 100 MHz HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 4842 paths analyzed, 1788 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.416ns.
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4 (RAMB36_X2Y7.WEAL3), 3 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     3.584ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/processing_system7_0/processing_system7_0/PS7_i (OTHER)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4 (RAM)
+  Requirement:          10.000ns
+  Data Path Delay:      6.170ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.211ns (1.402 - 1.613)
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 0.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/processing_system7_0/processing_system7_0/PS7_i to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    Location               Delay type         Delay(ns)  Physical Resource
+                                                         Logical Resource(s)
+    ---------------------------------------------------  -------------------
+    PS7_X0Y0.MAXIGP0WVALID Tpsscko_MAXIGP0WVALID  1.334   system_i/processing_system7_0/processing_system7_0/PS7_i
+                                                         system_i/processing_system7_0/processing_system7_0/PS7_i
+    SLICE_X8Y50.D1         net (fanout=2)        1.505   system_i/axi_interconnect_1_M_WVALID
+    SLICE_X8Y50.D          Tilo                  0.124   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we1
+    RAMB36_X2Y7.WEAL3      net (fanout=128)      2.675   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+    RAMB36_X2Y7.CLKARDCLKL Trcck_WEA             0.532   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    ---------------------------------------------------  ---------------------------
+    Total                                        6.170ns (1.990ns logic, 4.180ns route)
+                                                         (32.3% logic, 67.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     4.869ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd2 (FF)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4 (RAM)
+  Requirement:          10.000ns
+  Data Path Delay:      4.918ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.178ns (1.539 - 1.717)
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 0.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd2 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    Location               Delay type         Delay(ns)  Physical Resource
+                                                         Logical Resource(s)
+    ---------------------------------------------------  -------------------
+    SLICE_X3Y50.CQ         Tcko                  0.456   system_i/axi_interconnect_1_M_AWREADY
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd2
+    SLICE_X8Y50.D2         net (fanout=23)       1.131   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd2
+    SLICE_X8Y50.D          Tilo                  0.124   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we1
+    RAMB36_X2Y7.WEAL3      net (fanout=128)      2.675   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+    RAMB36_X2Y7.CLKARDCLKL Trcck_WEA             0.532   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    ---------------------------------------------------  ---------------------------
+    Total                                        4.918ns (1.112ns logic, 3.806ns route)
+                                                         (22.6% logic, 77.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     4.908ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd1 (FF)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4 (RAM)
+  Requirement:          10.000ns
+  Data Path Delay:      4.879ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.178ns (1.539 - 1.717)
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 0.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd1 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    Location               Delay type         Delay(ns)  Physical Resource
+                                                         Logical Resource(s)
+    ---------------------------------------------------  -------------------
+    SLICE_X3Y50.AQ         Tcko                  0.456   system_i/axi_interconnect_1_M_AWREADY
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd1
+    SLICE_X8Y50.D4         net (fanout=22)       1.092   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd1
+    SLICE_X8Y50.D          Tilo                  0.124   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we1
+    RAMB36_X2Y7.WEAL3      net (fanout=128)      2.675   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+    RAMB36_X2Y7.CLKARDCLKL Trcck_WEA             0.532   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    ---------------------------------------------------  ---------------------------
+    Total                                        4.879ns (1.112ns logic, 3.767ns route)
+                                                         (22.8% logic, 77.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4 (RAMB36_X2Y7.WEAU3), 3 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     3.584ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/processing_system7_0/processing_system7_0/PS7_i (OTHER)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4 (RAM)
+  Requirement:          10.000ns
+  Data Path Delay:      6.170ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.211ns (1.402 - 1.613)
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 0.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/processing_system7_0/processing_system7_0/PS7_i to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    Location               Delay type         Delay(ns)  Physical Resource
+                                                         Logical Resource(s)
+    ---------------------------------------------------  -------------------
+    PS7_X0Y0.MAXIGP0WVALID Tpsscko_MAXIGP0WVALID  1.334   system_i/processing_system7_0/processing_system7_0/PS7_i
+                                                         system_i/processing_system7_0/processing_system7_0/PS7_i
+    SLICE_X8Y50.D1         net (fanout=2)        1.505   system_i/axi_interconnect_1_M_WVALID
+    SLICE_X8Y50.D          Tilo                  0.124   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we1
+    RAMB36_X2Y7.WEAU3      net (fanout=128)      2.675   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+    RAMB36_X2Y7.CLKARDCLKU Trcck_WEA             0.532   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    ---------------------------------------------------  ---------------------------
+    Total                                        6.170ns (1.990ns logic, 4.180ns route)
+                                                         (32.3% logic, 67.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     4.869ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd2 (FF)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4 (RAM)
+  Requirement:          10.000ns
+  Data Path Delay:      4.918ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.178ns (1.539 - 1.717)
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 0.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd2 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    Location               Delay type         Delay(ns)  Physical Resource
+                                                         Logical Resource(s)
+    ---------------------------------------------------  -------------------
+    SLICE_X3Y50.CQ         Tcko                  0.456   system_i/axi_interconnect_1_M_AWREADY
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd2
+    SLICE_X8Y50.D2         net (fanout=23)       1.131   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd2
+    SLICE_X8Y50.D          Tilo                  0.124   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we1
+    RAMB36_X2Y7.WEAU3      net (fanout=128)      2.675   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+    RAMB36_X2Y7.CLKARDCLKU Trcck_WEA             0.532   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    ---------------------------------------------------  ---------------------------
+    Total                                        4.918ns (1.112ns logic, 3.806ns route)
+                                                         (22.6% logic, 77.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     4.908ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd1 (FF)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4 (RAM)
+  Requirement:          10.000ns
+  Data Path Delay:      4.879ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.178ns (1.539 - 1.717)
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 0.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd1 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    Location               Delay type         Delay(ns)  Physical Resource
+                                                         Logical Resource(s)
+    ---------------------------------------------------  -------------------
+    SLICE_X3Y50.AQ         Tcko                  0.456   system_i/axi_interconnect_1_M_AWREADY
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd1
+    SLICE_X8Y50.D4         net (fanout=22)       1.092   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd1
+    SLICE_X8Y50.D          Tilo                  0.124   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we1
+    RAMB36_X2Y7.WEAU3      net (fanout=128)      2.675   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+    RAMB36_X2Y7.CLKARDCLKU Trcck_WEA             0.532   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    ---------------------------------------------------  ---------------------------
+    Total                                        4.879ns (1.112ns logic, 3.767ns route)
+                                                         (22.8% logic, 77.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4 (RAMB36_X2Y7.WEAL0), 3 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     3.785ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/processing_system7_0/processing_system7_0/PS7_i (OTHER)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4 (RAM)
+  Requirement:          10.000ns
+  Data Path Delay:      5.969ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.211ns (1.402 - 1.613)
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 0.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/processing_system7_0/processing_system7_0/PS7_i to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    Location               Delay type         Delay(ns)  Physical Resource
+                                                         Logical Resource(s)
+    ---------------------------------------------------  -------------------
+    PS7_X0Y0.MAXIGP0WVALID Tpsscko_MAXIGP0WVALID  1.334   system_i/processing_system7_0/processing_system7_0/PS7_i
+                                                         system_i/processing_system7_0/processing_system7_0/PS7_i
+    SLICE_X8Y50.D1         net (fanout=2)        1.505   system_i/axi_interconnect_1_M_WVALID
+    SLICE_X8Y50.D          Tilo                  0.124   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we1
+    RAMB36_X2Y7.WEAL0      net (fanout=128)      2.474   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+    RAMB36_X2Y7.CLKARDCLKL Trcck_WEA             0.532   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    ---------------------------------------------------  ---------------------------
+    Total                                        5.969ns (1.990ns logic, 3.979ns route)
+                                                         (33.3% logic, 66.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     5.070ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd2 (FF)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4 (RAM)
+  Requirement:          10.000ns
+  Data Path Delay:      4.717ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.178ns (1.539 - 1.717)
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 0.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd2 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    Location               Delay type         Delay(ns)  Physical Resource
+                                                         Logical Resource(s)
+    ---------------------------------------------------  -------------------
+    SLICE_X3Y50.CQ         Tcko                  0.456   system_i/axi_interconnect_1_M_AWREADY
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd2
+    SLICE_X8Y50.D2         net (fanout=23)       1.131   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd2
+    SLICE_X8Y50.D          Tilo                  0.124   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we1
+    RAMB36_X2Y7.WEAL0      net (fanout=128)      2.474   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+    RAMB36_X2Y7.CLKARDCLKL Trcck_WEA             0.532   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    ---------------------------------------------------  ---------------------------
+    Total                                        4.717ns (1.112ns logic, 3.605ns route)
+                                                         (23.6% logic, 76.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     5.109ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd1 (FF)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4 (RAM)
+  Requirement:          10.000ns
+  Data Path Delay:      4.678ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.178ns (1.539 - 1.717)
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 0.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd1 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    Location               Delay type         Delay(ns)  Physical Resource
+                                                         Logical Resource(s)
+    ---------------------------------------------------  -------------------
+    SLICE_X3Y50.AQ         Tcko                  0.456   system_i/axi_interconnect_1_M_AWREADY
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd1
+    SLICE_X8Y50.D4         net (fanout=22)       1.092   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd1
+    SLICE_X8Y50.D          Tilo                  0.124   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we1
+    RAMB36_X2Y7.WEAL0      net (fanout=128)      2.474   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/cdc_we
+    RAMB36_X2Y7.CLKARDCLKL Trcck_WEA             0.532   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+                                                         system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4
+    ---------------------------------------------------  ---------------------------
+    Total                                        4.678ns (1.112ns logic, 3.566ns route)
+                                                         (23.8% logic, 76.2% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_0" 100 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/processing_system7_0/processing_system7_0/PS7_i (PS7_X0Y0.MAXIGP0BID9), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.031ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_9 (FF)
+  Destination:          system_i/processing_system7_0/processing_system7_0/PS7_i (OTHER)
+  Requirement:          0.000ns
+  Data Path Delay:      0.342ns (Levels of Logic = 0)
+  Clock Path Skew:      0.311ns (0.892 - 0.581)
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_9 to system_i/processing_system7_0/processing_system7_0/PS7_i
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X0Y51.BQ       Tcko                  0.164   system_i/axi_interconnect_1_M_BID<11>
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_9
+    PS7_X0Y0.MAXIGP0BID9 net (fanout=1)        0.178   system_i/axi_interconnect_1_M_BID<9>
+    PS7_X0Y0.MAXIGP0ACLK Tpssckd_MAXIGP0BID(-Th)     0.000   system_i/processing_system7_0/processing_system7_0/PS7_i
+                                                       system_i/processing_system7_0/processing_system7_0/PS7_i
+    -------------------------------------------------  ---------------------------
+    Total                                      0.342ns (0.164ns logic, 0.178ns route)
+                                                       (48.0% logic, 52.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/processing_system7_0/processing_system7_0/PS7_i (PS7_X0Y0.MAXIGP0BID8), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.036ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_8 (FF)
+  Destination:          system_i/processing_system7_0/processing_system7_0/PS7_i (OTHER)
+  Requirement:          0.000ns
+  Data Path Delay:      0.347ns (Levels of Logic = 0)
+  Clock Path Skew:      0.311ns (0.892 - 0.581)
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_8 to system_i/processing_system7_0/processing_system7_0/PS7_i
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X0Y51.AQ       Tcko                  0.164   system_i/axi_interconnect_1_M_BID<11>
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_8
+    PS7_X0Y0.MAXIGP0BID8 net (fanout=1)        0.183   system_i/axi_interconnect_1_M_BID<8>
+    PS7_X0Y0.MAXIGP0ACLK Tpssckd_MAXIGP0BID(-Th)     0.000   system_i/processing_system7_0/processing_system7_0/PS7_i
+                                                       system_i/processing_system7_0/processing_system7_0/PS7_i
+    -------------------------------------------------  ---------------------------
+    Total                                      0.347ns (0.164ns logic, 0.183ns route)
+                                                       (47.3% logic, 52.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/processing_system7_0/processing_system7_0/PS7_i (PS7_X0Y0.MAXIGP0RID9), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.036ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_9 (FF)
+  Destination:          system_i/processing_system7_0/processing_system7_0/PS7_i (OTHER)
+  Requirement:          0.000ns
+  Data Path Delay:      0.347ns (Levels of Logic = 0)
+  Clock Path Skew:      0.311ns (0.892 - 0.581)
+  Source Clock:         system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Destination Clock:    system_i/processing_system7_0_FCLK_CLK0 rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_9 to system_i/processing_system7_0/processing_system7_0/PS7_i
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X0Y50.BQ       Tcko                  0.164   system_i/axi_interconnect_1_M_RID<11>
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_9
+    PS7_X0Y0.MAXIGP0RID9 net (fanout=1)        0.183   system_i/axi_interconnect_1_M_RID<9>
+    PS7_X0Y0.MAXIGP0ACLK Tpssckd_MAXIGP0RID(-Th)     0.000   system_i/processing_system7_0/processing_system7_0/PS7_i
+                                                       system_i/processing_system7_0/processing_system7_0/PS7_i
+    -------------------------------------------------  ---------------------------
+    Total                                      0.347ns (0.164ns logic, 0.183ns route)
+                                                       (47.3% logic, 52.7% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_0" 100 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 5.508ns (period - min period limit)
+  Period: 6.757ns
+  Min period limit: 1.249ns (800.641MHz) (Tmmcmper_CLKOUT(Foutmax))
+  Physical resource: system_i/clock_generator_0/clock_generator_0/MMCM1_INST/MMCM_ADV_inst/CLKOUT0
+  Logical resource: system_i/clock_generator_0/clock_generator_0/MMCM1_INST/MMCM_ADV_inst/CLKOUT0
+  Location pin: MMCME2_ADV_X0Y0.CLKOUT0
+  Clock network: system_i/clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0
+--------------------------------------------------------------------------------
+Slack: 6.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 10.000ns
+  Low pulse: 5.000ns
+  Low pulse limit: 2.000ns (Tmmcmpw_CLKIN1_100_150)
+  Physical resource: system_i/clock_generator_0/clock_generator_0/MMCM1_INST/MMCM_ADV_inst/CLKIN1
+  Logical resource: system_i/clock_generator_0/clock_generator_0/MMCM1_INST/MMCM_ADV_inst/CLKIN1
+  Location pin: MMCME2_ADV_X0Y0.CLKIN1
+  Clock network: system_i/processing_system7_0_FCLK_CLK0
+--------------------------------------------------------------------------------
+Slack: 6.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 10.000ns
+  High pulse: 5.000ns
+  High pulse limit: 2.000ns (Tmmcmpw_CLKIN1_100_150)
+  Physical resource: system_i/clock_generator_0/clock_generator_0/MMCM1_INST/MMCM_ADV_inst/CLKIN1
+  Logical resource: system_i/clock_generator_0/clock_generator_0/MMCM1_INST/MMCM_ADV_inst/CLKIN1
+  Location pin: MMCME2_ADV_X0Y0.CLKIN1
+  Clock network: system_i/processing_system7_0_FCLK_CLK0
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: 
+TS_system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD      
+   TIMEGRP         
+"system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0"         
+TS_clk_fpga_0 * 1.48 HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 3345 paths analyzed, 1166 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   5.467ns.
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST (RAMB18_X2Y17.ADDRARDADDR6), 2 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     1.289ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1 (RAM)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST (RAM)
+  Requirement:          6.756ns
+  Data Path Delay:      5.154ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.161ns (1.405 - 1.566)
+  Source Clock:         system_i/clock_generator_0_CLKOUT0 rising at 0.000ns
+  Destination Clock:    system_i/clock_generator_0_CLKOUT0 rising at 6.756ns
+  Clock Uncertainty:    0.152ns
+
+  Clock Uncertainty:          0.152ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.295ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST
+    Location                  Delay type         Delay(ns)  Physical Resource
+                                                            Logical Resource(s)
+    ------------------------------------------------------  -------------------
+    RAMB36_X0Y7.DOBDO0        Trcko_DOB             2.454   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1
+                                                            system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1
+    RAMB18_X2Y17.ADDRARDADDR6 net (fanout=1)        2.134   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_dout<0>
+    RAMB18_X2Y17.CLKARDCLK    Trcck_ADDRA           0.566   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST
+                                                            system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST
+    ------------------------------------------------------  ---------------------------
+    Total                                           5.154ns (3.020ns logic, 2.134ns route)
+                                                            (58.6% logic, 41.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     1.289ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1 (RAM)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST (RAM)
+  Requirement:          6.756ns
+  Data Path Delay:      5.154ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.161ns (1.405 - 1.566)
+  Source Clock:         system_i/clock_generator_0_CLKOUT0 rising at 0.000ns
+  Destination Clock:    system_i/clock_generator_0_CLKOUT0 rising at 6.756ns
+  Clock Uncertainty:    0.152ns
+
+  Clock Uncertainty:          0.152ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.295ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST
+    Location                  Delay type         Delay(ns)  Physical Resource
+                                                            Logical Resource(s)
+    ------------------------------------------------------  -------------------
+    RAMB36_X0Y7.DOBDO0        Trcko_DOB             2.454   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1
+                                                            system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1
+    RAMB18_X2Y17.ADDRARDADDR6 net (fanout=1)        2.134   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_dout<0>
+    RAMB18_X2Y17.CLKARDCLK    Trcck_ADDRA           0.566   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST
+                                                            system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST
+    ------------------------------------------------------  ---------------------------
+    Total                                           5.154ns (3.020ns logic, 2.134ns route)
+                                                            (58.6% logic, 41.4% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_2 (SLICE_X33Y52.C1), 2 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     1.384ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16 (RAM)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_2 (FF)
+  Requirement:          6.756ns
+  Data Path Delay:      4.988ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.232ns (1.490 - 1.722)
+  Source Clock:         system_i/clock_generator_0_CLKOUT0 rising at 0.000ns
+  Destination Clock:    system_i/clock_generator_0_CLKOUT0 rising at 6.756ns
+  Clock Uncertainty:    0.152ns
+
+  Clock Uncertainty:          0.152ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.295ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB36_X0Y9.DOBDO0   Trcko_DOB             2.454   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16
+    SLICE_X33Y52.C1      net (fanout=2)        2.441   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_dout<15>
+    SLICE_X33Y52.CLK     Tas                   0.093   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node<2>
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_2_glue_rst
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_2
+    -------------------------------------------------  ---------------------------
+    Total                                      4.988ns (2.547ns logic, 2.441ns route)
+                                                       (51.1% logic, 48.9% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     1.384ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16 (RAM)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_2 (FF)
+  Requirement:          6.756ns
+  Data Path Delay:      4.988ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.232ns (1.490 - 1.722)
+  Source Clock:         system_i/clock_generator_0_CLKOUT0 rising at 0.000ns
+  Destination Clock:    system_i/clock_generator_0_CLKOUT0 rising at 6.756ns
+  Clock Uncertainty:    0.152ns
+
+  Clock Uncertainty:          0.152ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.295ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB36_X0Y9.DOBDO0   Trcko_DOB             2.454   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16
+    SLICE_X33Y52.C1      net (fanout=2)        2.441   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_dout<15>
+    SLICE_X33Y52.CLK     Tas                   0.093   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node<2>
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_2_glue_rst
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_2
+    -------------------------------------------------  ---------------------------
+    Total                                      4.988ns (2.547ns logic, 2.441ns route)
+                                                       (51.1% logic, 48.9% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_1 (SLICE_X33Y52.B4), 2 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     1.435ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15 (RAM)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_1 (FF)
+  Requirement:          6.756ns
+  Data Path Delay:      4.938ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.231ns (1.490 - 1.721)
+  Source Clock:         system_i/clock_generator_0_CLKOUT0 rising at 0.000ns
+  Destination Clock:    system_i/clock_generator_0_CLKOUT0 rising at 6.756ns
+  Clock Uncertainty:    0.152ns
+
+  Clock Uncertainty:          0.152ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.295ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB36_X0Y8.DOBDO0   Trcko_DOB             2.454   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15
+    SLICE_X33Y52.B4      net (fanout=2)        2.391   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_dout<14>
+    SLICE_X33Y52.CLK     Tas                   0.093   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node<2>
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_1_glue_rst
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_1
+    -------------------------------------------------  ---------------------------
+    Total                                      4.938ns (2.547ns logic, 2.391ns route)
+                                                       (51.6% logic, 48.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     1.435ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15 (RAM)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_1 (FF)
+  Requirement:          6.756ns
+  Data Path Delay:      4.938ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.231ns (1.490 - 1.721)
+  Source Clock:         system_i/clock_generator_0_CLKOUT0 rising at 0.000ns
+  Destination Clock:    system_i/clock_generator_0_CLKOUT0 rising at 6.756ns
+  Clock Uncertainty:    0.152ns
+
+  Clock Uncertainty:          0.152ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.295ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB36_X0Y8.DOBDO0   Trcko_DOB             2.454   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15
+    SLICE_X33Y52.B4      net (fanout=2)        2.391   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_dout<14>
+    SLICE_X33Y52.CLK     Tas                   0.093   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node<2>
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_1_glue_rst
+                                                       system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_1
+    -------------------------------------------------  ---------------------------
+    Total                                      4.938ns (2.547ns logic, 2.391ns route)
+                                                       (51.6% logic, 48.4% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD
+        TIMEGRP
+        "system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0"
+        TS_clk_fpga_0 * 1.48 HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12 (RAMB36_X1Y10.ADDRBWRADDRL10), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.021ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_10 (FF)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12 (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.333ns (Levels of Logic = 0)
+  Clock Path Skew:      0.312ns (0.872 - 0.560)
+  Source Clock:         system_i/clock_generator_0_CLKOUT0 rising at 0.000ns
+  Destination Clock:    system_i/clock_generator_0_CLKOUT0 rising at 0.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_10 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12
+    Location                    Delay type         Delay(ns)  Physical Resource
+                                                              Logical Resource(s)
+    --------------------------------------------------------  -------------------
+    SLICE_X25Y49.CQ             Tcko                  0.141   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr<11>
+                                                              system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_10
+    RAMB36_X1Y10.ADDRBWRADDRL10 net (fanout=34)       0.375   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr<10>
+    RAMB36_X1Y10.CLKBWRCLKL     Trckc_ADDRB (-Th)     0.183   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12
+                                                              system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12
+    --------------------------------------------------------  ---------------------------
+    Total                                             0.333ns (-0.042ns logic, 0.375ns route)
+                                                              (-12.6% logic, 112.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12 (RAMB36_X1Y10.ADDRBWRADDRU10), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.021ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_10 (FF)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12 (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.333ns (Levels of Logic = 0)
+  Clock Path Skew:      0.312ns (0.872 - 0.560)
+  Source Clock:         system_i/clock_generator_0_CLKOUT0 rising at 0.000ns
+  Destination Clock:    system_i/clock_generator_0_CLKOUT0 rising at 0.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_10 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12
+    Location                    Delay type         Delay(ns)  Physical Resource
+                                                              Logical Resource(s)
+    --------------------------------------------------------  -------------------
+    SLICE_X25Y49.CQ             Tcko                  0.141   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr<11>
+                                                              system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_10
+    RAMB36_X1Y10.ADDRBWRADDRU10 net (fanout=34)       0.375   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr<10>
+    RAMB36_X1Y10.CLKBWRCLKU     Trckc_ADDRB (-Th)     0.183   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12
+                                                              system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12
+    --------------------------------------------------------  ---------------------------
+    Total                                             0.333ns (-0.042ns logic, 0.375ns route)
+                                                              (-12.6% logic, 112.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7 (RAMB36_X1Y9.ADDRBWRADDRL14), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.039ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_14 (FF)
+  Destination:          system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7 (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.353ns (Levels of Logic = 0)
+  Clock Path Skew:      0.314ns (0.872 - 0.558)
+  Source Clock:         system_i/clock_generator_0_CLKOUT0 rising at 0.000ns
+  Destination Clock:    system_i/clock_generator_0_CLKOUT0 rising at 0.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_14 to system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7
+    Location                   Delay type         Delay(ns)  Physical Resource
+                                                             Logical Resource(s)
+    -------------------------------------------------------  -------------------
+    SLICE_X25Y50.CQ            Tcko                  0.141   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr<14>
+                                                             system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_14
+    RAMB36_X1Y9.ADDRBWRADDRL14 net (fanout=34)       0.395   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr<14>
+    RAMB36_X1Y9.CLKBWRCLKL     Trckc_ADDRB (-Th)     0.183   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7
+                                                             system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7
+    -------------------------------------------------------  ---------------------------
+    Total                                            0.353ns (-0.042ns logic, 0.395ns route)
+                                                             (-11.9% logic, 111.9% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD
+        TIMEGRP
+        "system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0"
+        TS_clk_fpga_0 * 1.48 HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 4.180ns (period - min period limit)
+  Period: 6.756ns
+  Min period limit: 2.576ns (388.199MHz) (Trper_CLKB)
+  Physical resource: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10/CLKBWRCLKL
+  Logical resource: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10/CLKBWRCLKL
+  Location pin: RAMB36_X2Y11.CLKBWRCLKL
+  Clock network: system_i/clock_generator_0_CLKOUT0
+--------------------------------------------------------------------------------
+Slack: 4.180ns (period - min period limit)
+  Period: 6.756ns
+  Min period limit: 2.576ns (388.199MHz) (Trper_CLK_WF_NC(FMAX_BRAM_WF_NC))
+  Physical resource: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10/CLKBWRCLKU
+  Logical resource: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10/CLKBWRCLKU
+  Location pin: RAMB36_X2Y11.CLKBWRCLKU
+  Clock network: system_i/clock_generator_0_CLKOUT0
+--------------------------------------------------------------------------------
+Slack: 4.180ns (period - min period limit)
+  Period: 6.756ns
+  Min period limit: 2.576ns (388.199MHz) (Trper_CLKB)
+  Physical resource: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem11/CLKBWRCLKL
+  Logical resource: system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem11/CLKBWRCLKL
+  Location pin: RAMB36_X1Y11.CLKBWRCLKL
+  Clock network: system_i/clock_generator_0_CLKOUT0
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_clk_fpga_0
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_clk_fpga_0                  |     10.000ns|      6.416ns|      8.091ns|            0|            0|         4842|         3345|
+| TS_system_i_clock_generator_0_|      6.757ns|      5.467ns|          N/A|            0|            0|         3345|            0|
+| clock_generator_0_SIG_MMCM1_CL|             |             |             |             |             |             |             |
+| KOUT0                         |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+No constraints were found to generate data for the Data Sheet Report section.
+Use the Advanced Analysis (-a) option or generate global constraints for each
+clock, its pad to setup and clock to pad paths, and a pad to pad constraint.
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 8189 paths, 0 nets, and 2603 connections
+
+Design statistics:
+   Minimum period:   6.416ns{1}   (Maximum frequency: 155.860MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed THU 20 MAR 6:8:47 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 533 MB
+
+
+

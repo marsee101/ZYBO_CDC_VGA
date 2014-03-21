@@ -1,0 +1,190 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+MASAAKI-PC::  Thu Mar 20 06:07:44 2014
+
+par -w -intstyle ise -ol high -mt off system_top_map.ncd system_top.ncd
+system_top.pcf 
+
+
+Constraints file: system_top.pcf.
+Loading device for application Rf_Device from file '7z010.nph' in environment C:\HDL\Xilinx\14.7\ISE_DS\ISE\.
+   "system_top" is an NCD, version 3.2, device xc7z010, package clg400, speed -1
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.08 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFGs                           2 out of 32      6%
+   Number of External IOB33s                18 out of 100    18%
+      Number of LOCed IOB33s                18 out of 18    100%
+
+   Number of External IOPADs               130 out of 130   100%
+      Number of LOCed IOPADs               130 out of 130   100%
+
+   Number of MMCME2_ADVs                     1 out of 2      50%
+   Number of PS7s                            1 out of 1     100%
+   Number of RAMB18E1s                       1 out of 120     1%
+   Number of RAMB36E1s                      16 out of 60     26%
+   Number of Slices                        125 out of 4400    2%
+   Number of Slice Registers               270 out of 35200   1%
+      Number used as Flip Flops            270
+      Number used as Latches                 0
+      Number used as LatchThrus              0
+
+   Number of Slice LUTS                    248 out of 17600   1%
+   Number of Slice LUT-Flip Flop pairs     313 out of 17600   1%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
+   Command Line Tools User Guide for information on generating a TSI report.
+Starting initial Timing Analysis.  REAL time: 24 secs 
+Finished initial Timing Analysis.  REAL time: 24 secs 
+
+WARNING:Par:288 - The signal
+   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_
+   RAMD_D1_O has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_
+   RAMD_D1_O has no load.  PAR will not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 5210 unrouted;      REAL time: 25 secs 
+
+Phase  2  : 2467 unrouted;      REAL time: 25 secs 
+
+Phase  3  : 409 unrouted;      REAL time: 28 secs 
+
+Phase  4  : 409 unrouted; (Setup:0, Hold:2149, Component Switching Limit:0)     REAL time: 30 secs 
+
+Updating file: system_top.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:1580, Component Switching Limit:0)     REAL time: 32 secs 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:1580, Component Switching Limit:0)     REAL time: 32 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:1580, Component Switching Limit:0)     REAL time: 32 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:1580, Component Switching Limit:0)     REAL time: 32 secs 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 32 secs 
+Total REAL time to Router completion: 32 secs 
+Total CPU time to Router completion: 32 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|system_i/processing_ |              |      |      |            |             |
+| system7_0_FCLK_CLK0 | BUFGCTRL_X0Y0| No   |   89 |  0.111     |  1.765      |
++---------------------+--------------+------+------+------------+-------------+
+|system_i/clock_gener |              |      |      |            |             |
+|      ator_0_CLKOUT0 | BUFGCTRL_X0Y1| No   |   74 |  0.096     |  1.755      |
++---------------------+--------------+------+------+------------+-------------+
+|system_i/clock_gener |              |      |      |            |             |
+|ator_0/clock_generat |              |      |      |            |             |
+|or_0/SIG_MMCM1_CLKFB |              |      |      |            |             |
+|                 OUT |         Local|      |    1 |  0.000     |  0.014      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_system_i_clock_generator_0_clock_gener | SETUP       |     1.289ns|     5.467ns|       0|           0
+  ator_0_SIG_MMCM1_CLKOUT0 = PERIOD         | HOLD        |     0.021ns|            |       0|           0
+   TIMEGRP         "system_i_clock_generato |             |            |            |        |            
+  r_0_clock_generator_0_SIG_MMCM1_CLKOUT0"  |             |            |            |        |            
+          TS_clk_fpga_0 * 1.48 HIGH 50%     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_ | SETUP       |     3.584ns|     6.416ns|       0|           0
+  0" 100 MHz HIGH 50%                       | HOLD        |     0.031ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_axi_interconnect_1_reset_resync_ | SETUP       |         N/A|     1.170ns|     N/A|           0
+  path" TIG                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_clk_fpga_0
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_clk_fpga_0                  |     10.000ns|      6.416ns|      8.091ns|            0|            0|         4842|         3345|
+| TS_system_i_clock_generator_0_|      6.757ns|      5.467ns|          N/A|            0|            0|         3345|            0|
+| clock_generator_0_SIG_MMCM1_CL|             |             |             |             |             |             |             |
+| KOUT0                         |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 34 secs 
+Total CPU time to PAR completion: 34 secs 
+
+Peak Memory Usage:  591 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 4
+Number of info messages: 1
+
+Writing design to file system_top.ncd
+
+
+
+PAR done!

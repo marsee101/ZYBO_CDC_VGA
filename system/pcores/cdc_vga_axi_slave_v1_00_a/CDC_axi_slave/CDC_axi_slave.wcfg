@@ -1,0 +1,2756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_axi_slave_v1_00_a/CDC_axi_slave/CDC_axi_slave_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="CDC_axi_slave_tb" />
+            <top_module name="glbl" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vl_types" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="106" />
+   <wvobject fp_name="/CDC_axi_slave_tb/ACLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/ARESETN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ARESETN</obj_property>
+      <obj_property name="ObjectShortName">ARESETN</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider102" type="divider">
+      <obj_property name="label">Write Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/axi_w_transaction_active" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">axi_w_transaction_active</obj_property>
+      <obj_property name="ObjectShortName">axi_w_transaction_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_AWVALID" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_AWREADY" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_AWID" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_AWID[0:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWID[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_AWADDR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWADDR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_AWLEN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_AWLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWLEN[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_AWSIZE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_AWSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWSIZE[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_AWBURST" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_AWBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWBURST[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_AWLOCK" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_AWLOCK[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWLOCK[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_AWCACHE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_AWCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWCACHE[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_AWPROT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_AWPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWPROT[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_AWREGION" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_AWREGION[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWREGION[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_AWQOS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_AWQOS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWQOS[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_AWUSER" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_AWUSER[0:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWUSER[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_WID" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_WID[0:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WID[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_WDATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_WSTRB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_WLAST" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_WLAST</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WLAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_WVALID" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_WREADY" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_WREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_WUSER" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_WUSER[0:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WUSER[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_BID" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_BID[0:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BID[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_BRESP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BRESP[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_BVALID" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_BVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_BREADY" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_BREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_BUSER" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_BUSER[0:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BUSER[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider99" type="divider">
+      <obj_property name="label">Read Channel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/ACLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/axi_r_transaction_active" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">axi_r_transaction_active</obj_property>
+      <obj_property name="ObjectShortName">axi_r_transaction_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_ARADDR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARADDR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_ARVALID" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_ARREADY" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_ARID" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_ARID[0:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARID[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_ARLEN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_ARLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARLEN[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_ARSIZE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_ARSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARSIZE[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_ARBURST" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_ARBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARBURST[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_ARLOCK" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_ARLOCK[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARLOCK[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_ARCACHE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_ARCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARCACHE[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_ARPROT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_ARPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARPROT[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_ARQOS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_ARQOS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARQOS[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_ARUSER" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_ARUSER[0:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARUSER[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_RID" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_RID[0:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RID[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_RDATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_RRESP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RRESP[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_RLAST" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_RLAST</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RLAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_RUSER" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_RUSER[0:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RUSER[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_RVALID" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_RVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_RREADY" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_RREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/S_AXI_ARREGION" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_AXI_ARREGION[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARREGION[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group328" type="group">
+      <obj_property name="label">OVLi</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/ACLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ACLK</obj_property>
+         <obj_property name="ObjectShortName">ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/ARESETN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ARESETN</obj_property>
+         <obj_property name="ObjectShortName">ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_AWID" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWID[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_AWADDR" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWADDR[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_AWLEN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWLEN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWLEN[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_AWSIZE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWSIZE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWSIZE[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_AWBURST" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWBURST[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWBURST[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_AWLOCK" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWLOCK[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWLOCK[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_AWCACHE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWCACHE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWCACHE[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_AWPROT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWPROT[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_AWREGION" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWREGION[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWREGION[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_AWQOS" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWQOS[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWQOS[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_AWUSER" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWUSER[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWUSER[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_AWVALID" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_WID" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_WID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WID[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_WDATA" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_WSTRB" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_WLAST" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_WLAST</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WLAST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_WUSER" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_WUSER[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WUSER[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_WVALID" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_WVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_BREADY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_BREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_ARID" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARID[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_ARADDR" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARADDR[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_ARLEN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARLEN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARLEN[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_ARSIZE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARSIZE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARSIZE[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_ARBURST" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARBURST[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARBURST[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_ARLOCK" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARLOCK[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARLOCK[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_ARCACHE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARCACHE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARCACHE[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_ARPROT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARPROT[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_ARREGION" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARREGION[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARREGION[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_ARQOS" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARQOS[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARQOS[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_ARUSER" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARUSER[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARUSER[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_ARVALID" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_RREADY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_RREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_AWREADY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_WREADY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_WREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_BID" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_BID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BID[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_BRESP" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_BUSER" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_BUSER[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BUSER[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_BVALID" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_BVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_ARREADY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_RID" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_RID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RID[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_RDATA" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_RRESP" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_RLAST" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_RLAST</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RLAST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_RUSER" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_RUSER[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RUSER[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/S_AXI_RVALID" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_RVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/fire_wr_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">fire_wr_data[2:0]</obj_property>
+         <obj_property name="ObjectShortName">fire_wr_data[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/fire_rd_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">fire_rd_data[2:0]</obj_property>
+         <obj_property name="ObjectShortName">fire_rd_data[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/fire_aw_hcheck" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">fire_aw_hcheck[2:0]</obj_property>
+         <obj_property name="ObjectShortName">fire_aw_hcheck[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/fire_ar_hcheck" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">fire_ar_hcheck[2:0]</obj_property>
+         <obj_property name="ObjectShortName">fire_ar_hcheck[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/fire_ar_never" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">fire_ar_never[2:0]</obj_property>
+         <obj_property name="ObjectShortName">fire_ar_never[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/countw" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">countw[7:0]</obj_property>
+         <obj_property name="ObjectShortName">countw[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/countr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">countr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">countr[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/wr_tran_cs" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wr_tran_cs[2:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_tran_cs[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/rd_trans_cs" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rd_trans_cs</obj_property>
+         <obj_property name="ObjectShortName">rd_trans_cs</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/idle_wts" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">idle_wts[2:0]</obj_property>
+         <obj_property name="ObjectShortName">idle_wts[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/wr_data_tran" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wr_data_tran[2:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_data_tran[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/wr_resp_tran" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wr_resp_tran[2:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_resp_tran[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/idle_rts" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">idle_rts</obj_property>
+         <obj_property name="ObjectShortName">idle_rts</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/OVLi/rd_data_tran" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rd_data_tran</obj_property>
+         <obj_property name="ObjectShortName">rd_data_tran</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/red_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">red_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">red_out[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/green_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">green_out[5:0]</obj_property>
+      <obj_property name="ObjectShortName">green_out[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/blue_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">blue_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">blue_out[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/hsync_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hsync_n</obj_property>
+      <obj_property name="ObjectShortName">hsync_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/vsync_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vsync_n</obj_property>
+      <obj_property name="ObjectShortName">vsync_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/TMDS_tx_clk_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TMDS_tx_clk_p</obj_property>
+      <obj_property name="ObjectShortName">TMDS_tx_clk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/TMDS_tx_clk_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TMDS_tx_clk_n</obj_property>
+      <obj_property name="ObjectShortName">TMDS_tx_clk_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/TMDS_tx_2_G_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TMDS_tx_2_G_p</obj_property>
+      <obj_property name="ObjectShortName">TMDS_tx_2_G_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/TMDS_tx_2_G_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TMDS_tx_2_G_n</obj_property>
+      <obj_property name="ObjectShortName">TMDS_tx_2_G_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/TMDS_tx_1_R_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TMDS_tx_1_R_p</obj_property>
+      <obj_property name="ObjectShortName">TMDS_tx_1_R_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/TMDS_tx_1_R_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TMDS_tx_1_R_n</obj_property>
+      <obj_property name="ObjectShortName">TMDS_tx_1_R_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/TMDS_tx_0_B_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TMDS_tx_0_B_p</obj_property>
+      <obj_property name="ObjectShortName">TMDS_tx_0_B_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/TMDS_tx_0_B_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TMDS_tx_0_B_n</obj_property>
+      <obj_property name="ObjectShortName">TMDS_tx_0_B_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/pixclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pixclk</obj_property>
+      <obj_property name="ObjectShortName">pixclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/DELAY" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DELAY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DELAY[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/BRESP_OKAY" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">BRESP_OKAY[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BRESP_OKAY[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/BRESP_EXOKAY" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">BRESP_EXOKAY[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BRESP_EXOKAY[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/BRESP_SLVERR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">BRESP_SLVERR[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BRESP_SLVERR[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/BRESP_DECERR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">BRESP_DECERR[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BRESP_DECERR[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/CDC_inst/processor_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">processor_addr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">processor_addr[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/CDC_inst/processor_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">processor_din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">processor_din[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/CDC_inst/processor_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">processor_dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">processor_dout[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/CDC_inst/processor_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">processor_we</obj_property>
+      <obj_property name="ObjectShortName">processor_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="group103" type="group">
+      <obj_property name="label">CDC_axi_slave</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/aclk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">aclk</obj_property>
+         <obj_property name="ObjectShortName">aclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/aresetn" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">aresetn</obj_property>
+         <obj_property name="ObjectShortName">aresetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_awid" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_awid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awid[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_awaddr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awaddr[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_awlen" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awlen[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_awsize" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awsize[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_awburst" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awburst[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_awlock" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_awlock[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awlock[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_awcache" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awcache[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_awprot" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awprot[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_awregion" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_awregion[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awregion[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_awqos" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_awqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awqos[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_awuser" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_awuser[0:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awuser[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_awvalid" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_awready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_awready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_wid" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_wid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wid[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_wdata" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_wstrb" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wstrb[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_wlast" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_wlast</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_wuser" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_wuser[0:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wuser[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_wvalid" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_wready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_wready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_bid" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_bid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bid[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_bresp" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_buser" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_buser[0:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_buser[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_bvalid" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_bready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_bready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_arid" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_arid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arid[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_araddr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_araddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_araddr[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_arlen" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arlen[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_arsize" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arsize[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_arburst" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arburst[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_arlock" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_arlock[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arlock[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_arcache" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arcache[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_arprot" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arprot[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_arregion" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_arregion[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arregion[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_arqos" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_arqos[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arqos[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_aruser" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_aruser[0:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_aruser[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_arvalid" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_arready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_arready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_rid" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_rid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rid[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_rdata" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_rresp" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_rlast" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_rlast</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_ruser" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_ruser[0:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_ruser[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_rvalid" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/s_axi_rready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">s_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/red_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">red_out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">red_out[4:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/green_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">green_out[5:0]</obj_property>
+         <obj_property name="ObjectShortName">green_out[5:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/blue_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">blue_out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">blue_out[4:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/hsync_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hsync_n</obj_property>
+         <obj_property name="ObjectShortName">hsync_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/vsync_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">vsync_n</obj_property>
+         <obj_property name="ObjectShortName">vsync_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/pixclk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pixclk</obj_property>
+         <obj_property name="ObjectShortName">pixclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/tmds_tx_clk_p" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_clk_p</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_clk_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/tmds_tx_clk_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_clk_n</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_clk_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/tmds_tx_2_g_p" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_2_g_p</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_2_g_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/tmds_tx_2_g_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_2_g_n</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_2_g_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/tmds_tx_1_r_p" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_1_r_p</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_1_r_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/tmds_tx_1_r_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_1_r_n</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_1_r_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/tmds_tx_0_b_p" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_0_b_p</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_0_b_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/tmds_tx_0_b_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_0_b_n</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_0_b_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/wrt_cs" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">wrt_cs</obj_property>
+         <obj_property name="ObjectShortName">wrt_cs</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/wrres" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">wrres</obj_property>
+         <obj_property name="ObjectShortName">wrres</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/wrwr" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">wrwr</obj_property>
+         <obj_property name="ObjectShortName">wrwr</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rdt_cs" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">rdt_cs</obj_property>
+         <obj_property name="ObjectShortName">rdt_cs</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rdlast" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">rdlast</obj_property>
+         <obj_property name="ObjectShortName">rdlast</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/reset_1d" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset_1d</obj_property>
+         <obj_property name="ObjectShortName">reset_1d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/reset_2d" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset_2d</obj_property>
+         <obj_property name="ObjectShortName">reset_2d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/awready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">awready</obj_property>
+         <obj_property name="ObjectShortName">awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/wr_addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wr_addr[12:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_addr[12:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/wr_bid" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wr_bid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_bid[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/wr_bresp" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wr_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_bresp[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/wr_bvalid" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">wr_bvalid</obj_property>
+         <obj_property name="ObjectShortName">wr_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/arready" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">arready</obj_property>
+         <obj_property name="ObjectShortName">arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rd_addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rd_addr[12:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_addr[12:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rd_axi_count" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rd_axi_count[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_axi_count[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rd_cdc_count" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rd_cdc_count[8:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_cdc_count[8:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rdfifo_din" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rdfifo_din[15:0]</obj_property>
+         <obj_property name="ObjectShortName">rdfifo_din[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rdfifo_wr_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rdfifo_wr_en</obj_property>
+         <obj_property name="ObjectShortName">rdfifo_wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rdfifo_rd_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rdfifo_rd_en</obj_property>
+         <obj_property name="ObjectShortName">rdfifo_rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rdfifo_full" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rdfifo_full</obj_property>
+         <obj_property name="ObjectShortName">rdfifo_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rdfifo_empty" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rdfifo_empty</obj_property>
+         <obj_property name="ObjectShortName">rdfifo_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rdfifo_almost_full" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rdfifo_almost_full</obj_property>
+         <obj_property name="ObjectShortName">rdfifo_almost_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rdfifo_almost_empty" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rdfifo_almost_empty</obj_property>
+         <obj_property name="ObjectShortName">rdfifo_almost_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rdfifo_overflow" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rdfifo_overflow</obj_property>
+         <obj_property name="ObjectShortName">rdfifo_overflow</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rdfifo_underflow" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rdfifo_underflow</obj_property>
+         <obj_property name="ObjectShortName">rdfifo_underflow</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rvalid" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rvalid</obj_property>
+         <obj_property name="ObjectShortName">rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/rlast" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rlast</obj_property>
+         <obj_property name="ObjectShortName">rlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/cdc_addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">cdc_addr[12:0]</obj_property>
+         <obj_property name="ObjectShortName">cdc_addr[12:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/vga_red" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_red[2:0]</obj_property>
+         <obj_property name="ObjectShortName">vga_red[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/vga_green" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_green[2:0]</obj_property>
+         <obj_property name="ObjectShortName">vga_green[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/vga_blue" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_blue[2:0]</obj_property>
+         <obj_property name="ObjectShortName">vga_blue[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/vga_red8" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_red8[7:0]</obj_property>
+         <obj_property name="ObjectShortName">vga_red8[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/vga_green8" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_green8[7:0]</obj_property>
+         <obj_property name="ObjectShortName">vga_green8[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/vga_blue8" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_blue8[7:0]</obj_property>
+         <obj_property name="ObjectShortName">vga_blue8[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/vga_hsync" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_hsync</obj_property>
+         <obj_property name="ObjectShortName">vga_hsync</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/vga_vsync" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">vga_vsync</obj_property>
+         <obj_property name="ObjectShortName">vga_vsync</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/display_enable" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">display_enable</obj_property>
+         <obj_property name="ObjectShortName">display_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/cdc_we" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cdc_we</obj_property>
+         <obj_property name="ObjectShortName">cdc_we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/c_s_axi_id_width" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">c_s_axi_id_width</obj_property>
+         <obj_property name="ObjectShortName">c_s_axi_id_width</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/c_s_axi_addr_width" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">c_s_axi_addr_width</obj_property>
+         <obj_property name="ObjectShortName">c_s_axi_addr_width</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/c_s_axi_data_width" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">c_s_axi_data_width</obj_property>
+         <obj_property name="ObjectShortName">c_s_axi_data_width</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/c_s_axi_awuser_width" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">c_s_axi_awuser_width</obj_property>
+         <obj_property name="ObjectShortName">c_s_axi_awuser_width</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/c_s_axi_aruser_width" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">c_s_axi_aruser_width</obj_property>
+         <obj_property name="ObjectShortName">c_s_axi_aruser_width</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/c_s_axi_wuser_width" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">c_s_axi_wuser_width</obj_property>
+         <obj_property name="ObjectShortName">c_s_axi_wuser_width</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/c_s_axi_ruser_width" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">c_s_axi_ruser_width</obj_property>
+         <obj_property name="ObjectShortName">c_s_axi_ruser_width</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/c_s_axi_buser_width" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">c_s_axi_buser_width</obj_property>
+         <obj_property name="ObjectShortName">c_s_axi_buser_width</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/axburst_fixed" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">axburst_fixed[0:1]</obj_property>
+         <obj_property name="ObjectShortName">axburst_fixed[0:1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/axburst_incr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">axburst_incr[0:1]</obj_property>
+         <obj_property name="ObjectShortName">axburst_incr[0:1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/axburst_wrap" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">axburst_wrap[0:1]</obj_property>
+         <obj_property name="ObjectShortName">axburst_wrap[0:1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/resp_okay" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">resp_okay[0:1]</obj_property>
+         <obj_property name="ObjectShortName">resp_okay[0:1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/resp_exokay" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">resp_exokay[0:1]</obj_property>
+         <obj_property name="ObjectShortName">resp_exokay[0:1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/resp_slverr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">resp_slverr[0:1]</obj_property>
+         <obj_property name="ObjectShortName">resp_slverr[0:1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/resp_decerr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">resp_decerr[0:1]</obj_property>
+         <obj_property name="ObjectShortName">resp_decerr[0:1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group211" type="group">
+      <obj_property name="label">MBFMi</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/ACLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ACLK</obj_property>
+         <obj_property name="ObjectShortName">ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_AWREADY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_WREADY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_WREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_BID" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_BID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BID[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_BRESP" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_BUSER" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_BUSER[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BUSER[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_BVALID" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_BVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_ARREADY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_RID" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_RID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RID[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_RDATA" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_RRESP" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_RLAST" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_RLAST</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RLAST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_RUSER" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_RUSER[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RUSER[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_RVALID" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_RVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_AWID" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWID[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_AWADDR" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWADDR[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_AWLEN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWLEN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWLEN[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_AWSIZE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWSIZE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWSIZE[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_AWBURST" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWBURST[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWBURST[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_AWLOCK" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWLOCK[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWLOCK[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_AWCACHE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWCACHE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWCACHE[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_AWPROT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWPROT[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_AWREGION" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWREGION[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWREGION[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_AWQOS" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWQOS[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWQOS[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_AWUSER" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWUSER[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWUSER[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_AWVALID" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_WID" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_WID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WID[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_WDATA" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_WSTRB" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_WLAST" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_WLAST</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WLAST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_WUSER" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_WUSER[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WUSER[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_WVALID" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_WVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_BREADY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_BREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_ARID" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARID[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_ARADDR" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARADDR[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_ARLEN" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARLEN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARLEN[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_ARSIZE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARSIZE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARSIZE[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_ARBURST" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARBURST[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARBURST[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_ARLOCK" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARLOCK[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARLOCK[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_ARCACHE" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARCACHE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARCACHE[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_ARPROT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARPROT[2:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_ARREGION" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARREGION[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARREGION[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_ARQOS" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARQOS[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARQOS[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_ARUSER" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARUSER[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARUSER[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_ARVALID" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/S_AXI_RREADY" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">S_AXI_RREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/awlen_hold" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">awlen_hold[7:0]</obj_property>
+         <obj_property name="ObjectShortName">awlen_hold[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/wid_hold" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wid_hold[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wid_hold[0:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/axi_w_transaction_active" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">axi_w_transaction_active</obj_property>
+         <obj_property name="ObjectShortName">axi_w_transaction_active</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/axi_r_transaction_active" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">axi_r_transaction_active</obj_property>
+         <obj_property name="ObjectShortName">axi_r_transaction_active</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/arlen_hold" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">arlen_hold[7:0]</obj_property>
+         <obj_property name="ObjectShortName">arlen_hold[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/MBFMi/DELAY" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DELAY[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DELAY[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pixclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pixclk</obj_property>
+      <obj_property name="ObjectShortName">pixclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/reset_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_in</obj_property>
+      <obj_property name="ObjectShortName">reset_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/red_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">red_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">red_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/green_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">green_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">green_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/blue_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">blue_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">blue_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/hsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/vsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/display_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">display_enable</obj_property>
+      <obj_property name="ObjectShortName">display_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_clk_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tmds_tx_clk_p</obj_property>
+      <obj_property name="ObjectShortName">tmds_tx_clk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_clk_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tmds_tx_clk_n</obj_property>
+      <obj_property name="ObjectShortName">tmds_tx_clk_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_2_g_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tmds_tx_2_g_p</obj_property>
+      <obj_property name="ObjectShortName">tmds_tx_2_g_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_2_g_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tmds_tx_2_g_n</obj_property>
+      <obj_property name="ObjectShortName">tmds_tx_2_g_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_1_r_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tmds_tx_1_r_p</obj_property>
+      <obj_property name="ObjectShortName">tmds_tx_1_r_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_1_r_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tmds_tx_1_r_n</obj_property>
+      <obj_property name="ObjectShortName">tmds_tx_1_r_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_0_b_p" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tmds_tx_0_b_p</obj_property>
+      <obj_property name="ObjectShortName">tmds_tx_0_b_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_0_b_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tmds_tx_0_b_n</obj_property>
+      <obj_property name="ObjectShortName">tmds_tx_0_b_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pll_clkfg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pll_clkfg</obj_property>
+      <obj_property name="ObjectShortName">pll_clkfg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pixel_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pixel_clk</obj_property>
+      <obj_property name="ObjectShortName">pixel_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pixel_clkx2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pixel_clkx2</obj_property>
+      <obj_property name="ObjectShortName">pixel_clkx2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pll_locked" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pll_locked</obj_property>
+      <obj_property name="ObjectShortName">pll_locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pclk_bufg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pclk_bufg</obj_property>
+      <obj_property name="ObjectShortName">pclk_bufg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pclkx2_bufg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pclkx2_bufg</obj_property>
+      <obj_property name="ObjectShortName">pclkx2_bufg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pll_clkfbout_mult" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">pll_clkfbout_mult</obj_property>
+      <obj_property name="ObjectShortName">pll_clkfbout_mult</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pll_clkin_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">pll_clkin_period</obj_property>
+      <obj_property name="ObjectShortName">pll_clkin_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pll_clkout0_divide" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">pll_clkout0_divide</obj_property>
+      <obj_property name="ObjectShortName">pll_clkout0_divide</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pll_clkout1_divide" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">pll_clkout1_divide</obj_property>
+      <obj_property name="ObjectShortName">pll_clkout1_divide</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pll_clkout2_divide" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">pll_clkout2_divide</obj_property>
+      <obj_property name="ObjectShortName">pll_clkout2_divide</obj_property>
+   </wvobject>
+   <wvobject fp_name="group378" type="group">
+      <obj_property name="label">dvi_disp</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pixclk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pixclk</obj_property>
+         <obj_property name="ObjectShortName">pixclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/reset_in" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset_in</obj_property>
+         <obj_property name="ObjectShortName">reset_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/red_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">red_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">red_in[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/green_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">green_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">green_in[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/blue_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">blue_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">blue_in[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/hsync" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hsync</obj_property>
+         <obj_property name="ObjectShortName">hsync</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/vsync" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">vsync</obj_property>
+         <obj_property name="ObjectShortName">vsync</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/display_enable" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">display_enable</obj_property>
+         <obj_property name="ObjectShortName">display_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_clk_p" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_clk_p</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_clk_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_clk_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_clk_n</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_clk_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_2_g_p" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_2_g_p</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_2_g_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_2_g_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_2_g_n</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_2_g_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_1_r_p" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_1_r_p</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_1_r_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_1_r_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_1_r_n</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_1_r_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_0_b_p" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_0_b_p</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_0_b_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/tmds_tx_0_b_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">tmds_tx_0_b_n</obj_property>
+         <obj_property name="ObjectShortName">tmds_tx_0_b_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pll_clkfg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pll_clkfg</obj_property>
+         <obj_property name="ObjectShortName">pll_clkfg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pixel_clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pixel_clk</obj_property>
+         <obj_property name="ObjectShortName">pixel_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pixel_clkx5" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pixel_clkx5</obj_property>
+         <obj_property name="ObjectShortName">pixel_clkx5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pixel_clkx2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pixel_clkx2</obj_property>
+         <obj_property name="ObjectShortName">pixel_clkx2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pll_locked" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pll_locked</obj_property>
+         <obj_property name="ObjectShortName">pll_locked</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pclk_bufg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pclk_bufg</obj_property>
+         <obj_property name="ObjectShortName">pclk_bufg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pclkx2_bufg" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pclkx2_bufg</obj_property>
+         <obj_property name="ObjectShortName">pclkx2_bufg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pll_clkfbout_mult" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">pll_clkfbout_mult</obj_property>
+         <obj_property name="ObjectShortName">pll_clkfbout_mult</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pll_clkin_period" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">pll_clkin_period</obj_property>
+         <obj_property name="ObjectShortName">pll_clkin_period</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pll_clkout0_divide" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">pll_clkout0_divide</obj_property>
+         <obj_property name="ObjectShortName">pll_clkout0_divide</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pll_clkout1_divide" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">pll_clkout1_divide</obj_property>
+         <obj_property name="ObjectShortName">pll_clkout1_divide</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/pll_clkout2_divide" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">pll_clkout2_divide</obj_property>
+         <obj_property name="ObjectShortName">pll_clkout2_divide</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="group400" type="group">
+         <obj_property name="label">DVI_TX</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/red_i" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">red_i[7:0]</obj_property>
+            <obj_property name="ObjectShortName">red_i[7:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/green_i" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">green_i[7:0]</obj_property>
+            <obj_property name="ObjectShortName">green_i[7:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/blue_i" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">blue_i[7:0]</obj_property>
+            <obj_property name="ObjectShortName">blue_i[7:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/hs_i" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">hs_i</obj_property>
+            <obj_property name="ObjectShortName">hs_i</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/vs_i" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">vs_i</obj_property>
+            <obj_property name="ObjectShortName">vs_i</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/vde_i" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">vde_i</obj_property>
+            <obj_property name="ObjectShortName">vde_i</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/pclk_i" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">pclk_i</obj_property>
+            <obj_property name="ObjectShortName">pclk_i</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/pclk_x2_i" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">pclk_x2_i</obj_property>
+            <obj_property name="ObjectShortName">pclk_x2_i</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/pclk_x5_i" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">pclk_x5_i</obj_property>
+            <obj_property name="ObjectShortName">pclk_x5_i</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/tmds_tx_clk_p" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">tmds_tx_clk_p</obj_property>
+            <obj_property name="ObjectShortName">tmds_tx_clk_p</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/tmds_tx_clk_n" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">tmds_tx_clk_n</obj_property>
+            <obj_property name="ObjectShortName">tmds_tx_clk_n</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/tmds_tx_2_p" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">tmds_tx_2_p</obj_property>
+            <obj_property name="ObjectShortName">tmds_tx_2_p</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/tmds_tx_2_n" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">tmds_tx_2_n</obj_property>
+            <obj_property name="ObjectShortName">tmds_tx_2_n</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/tmds_tx_1_p" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">tmds_tx_1_p</obj_property>
+            <obj_property name="ObjectShortName">tmds_tx_1_p</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/tmds_tx_1_n" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">tmds_tx_1_n</obj_property>
+            <obj_property name="ObjectShortName">tmds_tx_1_n</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/tmds_tx_0_p" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">tmds_tx_0_p</obj_property>
+            <obj_property name="ObjectShortName">tmds_tx_0_p</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/tmds_tx_0_n" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">tmds_tx_0_n</obj_property>
+            <obj_property name="ObjectShortName">tmds_tx_0_n</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/inttmdsred" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">inttmdsred[9:0]</obj_property>
+            <obj_property name="ObjectShortName">inttmdsred[9:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/inttmdsgreen" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">inttmdsgreen[9:0]</obj_property>
+            <obj_property name="ObjectShortName">inttmdsgreen[9:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/inttmdsblue" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">inttmdsblue[9:0]</obj_property>
+            <obj_property name="ObjectShortName">inttmdsblue[9:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="group414" type="group">
+            <obj_property name="label">Inst_d0_serializer_10_1</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/dp_i" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">dp_i[9:0]</obj_property>
+               <obj_property name="ObjectShortName">dp_i[9:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/pclk_i" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">pclk_i</obj_property>
+               <obj_property name="ObjectShortName">pclk_i</obj_property>
+            </wvobject>
+            <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/pclk_x2_i" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">pclk_x2_i</obj_property>
+               <obj_property name="ObjectShortName">pclk_x2_i</obj_property>
+            </wvobject>
+            <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/pclk_x5_i" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">pclk_x5_i</obj_property>
+               <obj_property name="ObjectShortName">pclk_x5_i</obj_property>
+            </wvobject>
+            <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/rst_i" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">rst_i</obj_property>
+               <obj_property name="ObjectShortName">rst_i</obj_property>
+            </wvobject>
+            <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/dsp_o" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">dsp_o</obj_property>
+               <obj_property name="ObjectShortName">dsp_o</obj_property>
+            </wvobject>
+            <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/dsn_o" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">dsn_o</obj_property>
+               <obj_property name="ObjectShortName">dsn_o</obj_property>
+            </wvobject>
+            <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/intdsout" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">intdsout</obj_property>
+               <obj_property name="ObjectShortName">intdsout</obj_property>
+            </wvobject>
+            <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/paddpin" type="array" db_ref_id="1">
+               <obj_property name="ElementShortName">paddpin[14:0]</obj_property>
+               <obj_property name="ObjectShortName">paddpin[14:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/shift1_node" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">shift1_node</obj_property>
+               <obj_property name="ObjectShortName">shift1_node</obj_property>
+            </wvobject>
+            <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/shift2_node" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">shift2_node</obj_property>
+               <obj_property name="ObjectShortName">shift2_node</obj_property>
+            </wvobject>
+            <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/tbyte_node" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">tbyte_node</obj_property>
+               <obj_property name="ObjectShortName">tbyte_node</obj_property>
+            </wvobject>
+            <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/n" type="other" db_ref_id="1">
+               <obj_property name="ElementShortName">n</obj_property>
+               <obj_property name="ObjectShortName">n</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="group502" type="group">
+               <obj_property name="label">oserdes_m</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/ofb" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">ofb</obj_property>
+                  <obj_property name="ObjectShortName">ofb</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/oq" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">oq</obj_property>
+                  <obj_property name="ObjectShortName">oq</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/shiftout1" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftout1</obj_property>
+                  <obj_property name="ObjectShortName">shiftout1</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/shiftout2" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftout2</obj_property>
+                  <obj_property name="ObjectShortName">shiftout2</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tbyteout" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbyteout</obj_property>
+                  <obj_property name="ObjectShortName">tbyteout</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tfb" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tfb</obj_property>
+                  <obj_property name="ObjectShortName">tfb</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tq" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tq</obj_property>
+                  <obj_property name="ObjectShortName">tq</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/clk" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">clk</obj_property>
+                  <obj_property name="ObjectShortName">clk</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/clkdiv" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">clkdiv</obj_property>
+                  <obj_property name="ObjectShortName">clkdiv</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d1" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d1</obj_property>
+                  <obj_property name="ObjectShortName">d1</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d2" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d2</obj_property>
+                  <obj_property name="ObjectShortName">d2</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d3" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d3</obj_property>
+                  <obj_property name="ObjectShortName">d3</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d4" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d4</obj_property>
+                  <obj_property name="ObjectShortName">d4</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d5" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d5</obj_property>
+                  <obj_property name="ObjectShortName">d5</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d6" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d6</obj_property>
+                  <obj_property name="ObjectShortName">d6</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d7" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d7</obj_property>
+                  <obj_property name="ObjectShortName">d7</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d8" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d8</obj_property>
+                  <obj_property name="ObjectShortName">d8</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/oce" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">oce</obj_property>
+                  <obj_property name="ObjectShortName">oce</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/rst" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">rst</obj_property>
+                  <obj_property name="ObjectShortName">rst</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/shiftin1" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftin1</obj_property>
+                  <obj_property name="ObjectShortName">shiftin1</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/shiftin2" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftin2</obj_property>
+                  <obj_property name="ObjectShortName">shiftin2</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/t1" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t1</obj_property>
+                  <obj_property name="ObjectShortName">t1</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/t2" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t2</obj_property>
+                  <obj_property name="ObjectShortName">t2</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/t3" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t3</obj_property>
+                  <obj_property name="ObjectShortName">t3</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/t4" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t4</obj_property>
+                  <obj_property name="ObjectShortName">t4</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tbytein" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbytein</obj_property>
+                  <obj_property name="ObjectShortName">tbytein</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tce" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tce</obj_property>
+                  <obj_property name="ObjectShortName">tce</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/data_rate_oq_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">data_rate_oq_binary</obj_property>
+                  <obj_property name="ObjectShortName">data_rate_oq_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/data_rate_tq_binary" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">data_rate_tq_binary[5:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_rate_tq_binary[5:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/data_width_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">data_width_binary</obj_property>
+                  <obj_property name="ObjectShortName">data_width_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/serdes_mode_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">serdes_mode_binary</obj_property>
+                  <obj_property name="ObjectShortName">serdes_mode_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tbyte_ctl_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbyte_ctl_binary</obj_property>
+                  <obj_property name="ObjectShortName">tbyte_ctl_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tbyte_src_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbyte_src_binary</obj_property>
+                  <obj_property name="ObjectShortName">tbyte_src_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tristate_width_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tristate_width_binary</obj_property>
+                  <obj_property name="ObjectShortName">tristate_width_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/ofb_out" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">ofb_out</obj_property>
+                  <obj_property name="ObjectShortName">ofb_out</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/oq_out" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">oq_out</obj_property>
+                  <obj_property name="ObjectShortName">oq_out</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/shiftout1_out" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftout1_out</obj_property>
+                  <obj_property name="ObjectShortName">shiftout1_out</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/shiftout2_out" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftout2_out</obj_property>
+                  <obj_property name="ObjectShortName">shiftout2_out</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tbyteout_out" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbyteout_out</obj_property>
+                  <obj_property name="ObjectShortName">tbyteout_out</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tfb_out" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tfb_out</obj_property>
+                  <obj_property name="ObjectShortName">tfb_out</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tq_out" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tq_out</obj_property>
+                  <obj_property name="ObjectShortName">tq_out</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/ofb_outdelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">ofb_outdelay</obj_property>
+                  <obj_property name="ObjectShortName">ofb_outdelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/oq_outdelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">oq_outdelay</obj_property>
+                  <obj_property name="ObjectShortName">oq_outdelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/shiftout1_outdelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftout1_outdelay</obj_property>
+                  <obj_property name="ObjectShortName">shiftout1_outdelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/shiftout2_outdelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftout2_outdelay</obj_property>
+                  <obj_property name="ObjectShortName">shiftout2_outdelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tbyteout_outdelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbyteout_outdelay</obj_property>
+                  <obj_property name="ObjectShortName">tbyteout_outdelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tfb_outdelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tfb_outdelay</obj_property>
+                  <obj_property name="ObjectShortName">tfb_outdelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tq_outdelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tq_outdelay</obj_property>
+                  <obj_property name="ObjectShortName">tq_outdelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/clkdiv_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">clkdiv_ipd</obj_property>
+                  <obj_property name="ObjectShortName">clkdiv_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/clk_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">clk_ipd</obj_property>
+                  <obj_property name="ObjectShortName">clk_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d1_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d1_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d1_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d2_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d2_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d2_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d3_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d3_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d3_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d4_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d4_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d4_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d5_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d5_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d5_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d6_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d6_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d6_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d7_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d7_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d7_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d8_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d8_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d8_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/oce_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">oce_ipd</obj_property>
+                  <obj_property name="ObjectShortName">oce_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/rst_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">rst_ipd</obj_property>
+                  <obj_property name="ObjectShortName">rst_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/shiftin1_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftin1_ipd</obj_property>
+                  <obj_property name="ObjectShortName">shiftin1_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/shiftin2_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftin2_ipd</obj_property>
+                  <obj_property name="ObjectShortName">shiftin2_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/t1_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t1_ipd</obj_property>
+                  <obj_property name="ObjectShortName">t1_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/t2_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t2_ipd</obj_property>
+                  <obj_property name="ObjectShortName">t2_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/t3_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t3_ipd</obj_property>
+                  <obj_property name="ObjectShortName">t3_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/t4_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t4_ipd</obj_property>
+                  <obj_property name="ObjectShortName">t4_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tbytein_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbytein_ipd</obj_property>
+                  <obj_property name="ObjectShortName">tbytein_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tce_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tce_ipd</obj_property>
+                  <obj_property name="ObjectShortName">tce_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/clkdiv_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">clkdiv_indelay</obj_property>
+                  <obj_property name="ObjectShortName">clkdiv_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/clk_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">clk_indelay</obj_property>
+                  <obj_property name="ObjectShortName">clk_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d1_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d1_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d1_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d2_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d2_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d2_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d3_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d3_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d3_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d4_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d4_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d4_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d5_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d5_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d5_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d6_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d6_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d6_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d7_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d7_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d7_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/d8_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d8_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d8_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/oce_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">oce_indelay</obj_property>
+                  <obj_property name="ObjectShortName">oce_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/rst_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">rst_indelay</obj_property>
+                  <obj_property name="ObjectShortName">rst_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/shiftin1_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftin1_indelay</obj_property>
+                  <obj_property name="ObjectShortName">shiftin1_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/shiftin2_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftin2_indelay</obj_property>
+                  <obj_property name="ObjectShortName">shiftin2_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/t1_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t1_indelay</obj_property>
+                  <obj_property name="ObjectShortName">t1_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/t2_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t2_indelay</obj_property>
+                  <obj_property name="ObjectShortName">t2_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/t3_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t3_indelay</obj_property>
+                  <obj_property name="ObjectShortName">t3_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/t4_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t4_indelay</obj_property>
+                  <obj_property name="ObjectShortName">t4_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tbytein_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbytein_indelay</obj_property>
+                  <obj_property name="ObjectShortName">tbytein_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tce_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tce_indelay</obj_property>
+                  <obj_property name="ObjectShortName">tce_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/data_width" type="other" db_ref_id="1">
+                  <obj_property name="ElementShortName">data_width</obj_property>
+                  <obj_property name="ObjectShortName">data_width</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/init_oq" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">init_oq</obj_property>
+                  <obj_property name="ObjectShortName">init_oq</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/init_tq" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">init_tq</obj_property>
+                  <obj_property name="ObjectShortName">init_tq</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/srval_oq" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">srval_oq</obj_property>
+                  <obj_property name="ObjectShortName">srval_oq</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/srval_tq" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">srval_tq</obj_property>
+                  <obj_property name="ObjectShortName">srval_tq</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tristate_width" type="other" db_ref_id="1">
+                  <obj_property name="ElementShortName">tristate_width</obj_property>
+                  <obj_property name="ObjectShortName">tristate_width</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/in_delay" type="other" db_ref_id="1">
+                  <obj_property name="ElementShortName">in_delay</obj_property>
+                  <obj_property name="ObjectShortName">in_delay</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/out_delay" type="other" db_ref_id="1">
+                  <obj_property name="ElementShortName">out_delay</obj_property>
+                  <obj_property name="ObjectShortName">out_delay</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/inclk_delay" type="other" db_ref_id="1">
+                  <obj_property name="ElementShortName">inclk_delay</obj_property>
+                  <obj_property name="ObjectShortName">inclk_delay</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/outclk_delay" type="other" db_ref_id="1">
+                  <obj_property name="ElementShortName">outclk_delay</obj_property>
+                  <obj_property name="ObjectShortName">outclk_delay</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/init_oq_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">init_oq_binary</obj_property>
+                  <obj_property name="ObjectShortName">init_oq_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/init_tq_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">init_tq_binary</obj_property>
+                  <obj_property name="ObjectShortName">init_tq_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/srval_oq_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">srval_oq_binary</obj_property>
+                  <obj_property name="ObjectShortName">srval_oq_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/srval_tq_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">srval_tq_binary</obj_property>
+                  <obj_property name="ObjectShortName">srval_tq_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/data_rate_oq" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">data_rate_oq[1:3]</obj_property>
+                  <obj_property name="ObjectShortName">data_rate_oq[1:3]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/data_rate_tq" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">data_rate_tq[1:3]</obj_property>
+                  <obj_property name="ObjectShortName">data_rate_tq[1:3]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/serdes_mode" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">serdes_mode[1:6]</obj_property>
+                  <obj_property name="ObjectShortName">serdes_mode[1:6]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tbyte_ctl" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbyte_ctl[1:5]</obj_property>
+                  <obj_property name="ObjectShortName">tbyte_ctl[1:5]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/tbyte_src" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbyte_src[1:5]</obj_property>
+                  <obj_property name="ObjectShortName">tbyte_src[1:5]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/init_oq_string" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">init_oq_string[1:1]</obj_property>
+                  <obj_property name="ObjectShortName">init_oq_string[1:1]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/init_tq_string" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">init_tq_string[1:1]</obj_property>
+                  <obj_property name="ObjectShortName">init_tq_string[1:1]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/srval_oq_string" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">srval_oq_string[1:1]</obj_property>
+                  <obj_property name="ObjectShortName">srval_oq_string[1:1]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_m/srval_tq_string" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">srval_tq_string[1:1]</obj_property>
+                  <obj_property name="ObjectShortName">srval_tq_string[1:1]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group614" type="group">
+               <obj_property name="label">oserdes_s</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/ofb" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">ofb</obj_property>
+                  <obj_property name="ObjectShortName">ofb</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/oq" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">oq</obj_property>
+                  <obj_property name="ObjectShortName">oq</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/shiftout1" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftout1</obj_property>
+                  <obj_property name="ObjectShortName">shiftout1</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/shiftout2" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftout2</obj_property>
+                  <obj_property name="ObjectShortName">shiftout2</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tbyteout" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbyteout</obj_property>
+                  <obj_property name="ObjectShortName">tbyteout</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tfb" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tfb</obj_property>
+                  <obj_property name="ObjectShortName">tfb</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tq" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tq</obj_property>
+                  <obj_property name="ObjectShortName">tq</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/clk" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">clk</obj_property>
+                  <obj_property name="ObjectShortName">clk</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/clkdiv" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">clkdiv</obj_property>
+                  <obj_property name="ObjectShortName">clkdiv</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d1" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d1</obj_property>
+                  <obj_property name="ObjectShortName">d1</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d2" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d2</obj_property>
+                  <obj_property name="ObjectShortName">d2</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d3" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d3</obj_property>
+                  <obj_property name="ObjectShortName">d3</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d4" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d4</obj_property>
+                  <obj_property name="ObjectShortName">d4</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d5" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d5</obj_property>
+                  <obj_property name="ObjectShortName">d5</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d6" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d6</obj_property>
+                  <obj_property name="ObjectShortName">d6</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d7" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d7</obj_property>
+                  <obj_property name="ObjectShortName">d7</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d8" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d8</obj_property>
+                  <obj_property name="ObjectShortName">d8</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/oce" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">oce</obj_property>
+                  <obj_property name="ObjectShortName">oce</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/rst" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">rst</obj_property>
+                  <obj_property name="ObjectShortName">rst</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/shiftin1" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftin1</obj_property>
+                  <obj_property name="ObjectShortName">shiftin1</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/shiftin2" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftin2</obj_property>
+                  <obj_property name="ObjectShortName">shiftin2</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/t1" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t1</obj_property>
+                  <obj_property name="ObjectShortName">t1</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/t2" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t2</obj_property>
+                  <obj_property name="ObjectShortName">t2</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/t3" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t3</obj_property>
+                  <obj_property name="ObjectShortName">t3</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/t4" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t4</obj_property>
+                  <obj_property name="ObjectShortName">t4</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tbytein" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbytein</obj_property>
+                  <obj_property name="ObjectShortName">tbytein</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tce" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tce</obj_property>
+                  <obj_property name="ObjectShortName">tce</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/data_rate_oq_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">data_rate_oq_binary</obj_property>
+                  <obj_property name="ObjectShortName">data_rate_oq_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/data_rate_tq_binary" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">data_rate_tq_binary[5:0]</obj_property>
+                  <obj_property name="ObjectShortName">data_rate_tq_binary[5:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/data_width_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">data_width_binary</obj_property>
+                  <obj_property name="ObjectShortName">data_width_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/serdes_mode_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">serdes_mode_binary</obj_property>
+                  <obj_property name="ObjectShortName">serdes_mode_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tbyte_ctl_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbyte_ctl_binary</obj_property>
+                  <obj_property name="ObjectShortName">tbyte_ctl_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tbyte_src_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbyte_src_binary</obj_property>
+                  <obj_property name="ObjectShortName">tbyte_src_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tristate_width_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tristate_width_binary</obj_property>
+                  <obj_property name="ObjectShortName">tristate_width_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/ofb_out" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">ofb_out</obj_property>
+                  <obj_property name="ObjectShortName">ofb_out</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/oq_out" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">oq_out</obj_property>
+                  <obj_property name="ObjectShortName">oq_out</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/shiftout1_out" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftout1_out</obj_property>
+                  <obj_property name="ObjectShortName">shiftout1_out</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/shiftout2_out" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftout2_out</obj_property>
+                  <obj_property name="ObjectShortName">shiftout2_out</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tbyteout_out" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbyteout_out</obj_property>
+                  <obj_property name="ObjectShortName">tbyteout_out</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tfb_out" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tfb_out</obj_property>
+                  <obj_property name="ObjectShortName">tfb_out</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tq_out" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tq_out</obj_property>
+                  <obj_property name="ObjectShortName">tq_out</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/ofb_outdelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">ofb_outdelay</obj_property>
+                  <obj_property name="ObjectShortName">ofb_outdelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/oq_outdelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">oq_outdelay</obj_property>
+                  <obj_property name="ObjectShortName">oq_outdelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/shiftout1_outdelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftout1_outdelay</obj_property>
+                  <obj_property name="ObjectShortName">shiftout1_outdelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/shiftout2_outdelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftout2_outdelay</obj_property>
+                  <obj_property name="ObjectShortName">shiftout2_outdelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tbyteout_outdelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbyteout_outdelay</obj_property>
+                  <obj_property name="ObjectShortName">tbyteout_outdelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tfb_outdelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tfb_outdelay</obj_property>
+                  <obj_property name="ObjectShortName">tfb_outdelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tq_outdelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tq_outdelay</obj_property>
+                  <obj_property name="ObjectShortName">tq_outdelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/clkdiv_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">clkdiv_ipd</obj_property>
+                  <obj_property name="ObjectShortName">clkdiv_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/clk_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">clk_ipd</obj_property>
+                  <obj_property name="ObjectShortName">clk_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d1_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d1_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d1_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d2_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d2_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d2_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d3_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d3_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d3_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d4_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d4_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d4_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d5_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d5_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d5_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d6_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d6_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d6_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d7_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d7_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d7_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d8_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d8_ipd</obj_property>
+                  <obj_property name="ObjectShortName">d8_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/oce_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">oce_ipd</obj_property>
+                  <obj_property name="ObjectShortName">oce_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/rst_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">rst_ipd</obj_property>
+                  <obj_property name="ObjectShortName">rst_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/shiftin1_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftin1_ipd</obj_property>
+                  <obj_property name="ObjectShortName">shiftin1_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/shiftin2_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftin2_ipd</obj_property>
+                  <obj_property name="ObjectShortName">shiftin2_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/t1_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t1_ipd</obj_property>
+                  <obj_property name="ObjectShortName">t1_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/t2_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t2_ipd</obj_property>
+                  <obj_property name="ObjectShortName">t2_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/t3_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t3_ipd</obj_property>
+                  <obj_property name="ObjectShortName">t3_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/t4_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t4_ipd</obj_property>
+                  <obj_property name="ObjectShortName">t4_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tbytein_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbytein_ipd</obj_property>
+                  <obj_property name="ObjectShortName">tbytein_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tce_ipd" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tce_ipd</obj_property>
+                  <obj_property name="ObjectShortName">tce_ipd</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/clkdiv_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">clkdiv_indelay</obj_property>
+                  <obj_property name="ObjectShortName">clkdiv_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/clk_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">clk_indelay</obj_property>
+                  <obj_property name="ObjectShortName">clk_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d1_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d1_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d1_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d2_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d2_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d2_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d3_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d3_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d3_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d4_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d4_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d4_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d5_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d5_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d5_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d6_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d6_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d6_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d7_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d7_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d7_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/d8_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">d8_indelay</obj_property>
+                  <obj_property name="ObjectShortName">d8_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/oce_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">oce_indelay</obj_property>
+                  <obj_property name="ObjectShortName">oce_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/rst_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">rst_indelay</obj_property>
+                  <obj_property name="ObjectShortName">rst_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/shiftin1_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftin1_indelay</obj_property>
+                  <obj_property name="ObjectShortName">shiftin1_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/shiftin2_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">shiftin2_indelay</obj_property>
+                  <obj_property name="ObjectShortName">shiftin2_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/t1_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t1_indelay</obj_property>
+                  <obj_property name="ObjectShortName">t1_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/t2_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t2_indelay</obj_property>
+                  <obj_property name="ObjectShortName">t2_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/t3_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t3_indelay</obj_property>
+                  <obj_property name="ObjectShortName">t3_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/t4_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">t4_indelay</obj_property>
+                  <obj_property name="ObjectShortName">t4_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tbytein_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbytein_indelay</obj_property>
+                  <obj_property name="ObjectShortName">tbytein_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tce_indelay" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">tce_indelay</obj_property>
+                  <obj_property name="ObjectShortName">tce_indelay</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/data_width" type="other" db_ref_id="1">
+                  <obj_property name="ElementShortName">data_width</obj_property>
+                  <obj_property name="ObjectShortName">data_width</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/init_oq" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">init_oq</obj_property>
+                  <obj_property name="ObjectShortName">init_oq</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/init_tq" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">init_tq</obj_property>
+                  <obj_property name="ObjectShortName">init_tq</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/srval_oq" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">srval_oq</obj_property>
+                  <obj_property name="ObjectShortName">srval_oq</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/srval_tq" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">srval_tq</obj_property>
+                  <obj_property name="ObjectShortName">srval_tq</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tristate_width" type="other" db_ref_id="1">
+                  <obj_property name="ElementShortName">tristate_width</obj_property>
+                  <obj_property name="ObjectShortName">tristate_width</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/in_delay" type="other" db_ref_id="1">
+                  <obj_property name="ElementShortName">in_delay</obj_property>
+                  <obj_property name="ObjectShortName">in_delay</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/out_delay" type="other" db_ref_id="1">
+                  <obj_property name="ElementShortName">out_delay</obj_property>
+                  <obj_property name="ObjectShortName">out_delay</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/inclk_delay" type="other" db_ref_id="1">
+                  <obj_property name="ElementShortName">inclk_delay</obj_property>
+                  <obj_property name="ObjectShortName">inclk_delay</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/outclk_delay" type="other" db_ref_id="1">
+                  <obj_property name="ElementShortName">outclk_delay</obj_property>
+                  <obj_property name="ObjectShortName">outclk_delay</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/init_oq_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">init_oq_binary</obj_property>
+                  <obj_property name="ObjectShortName">init_oq_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/init_tq_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">init_tq_binary</obj_property>
+                  <obj_property name="ObjectShortName">init_tq_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/srval_oq_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">srval_oq_binary</obj_property>
+                  <obj_property name="ObjectShortName">srval_oq_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/srval_tq_binary" type="logic" db_ref_id="1">
+                  <obj_property name="ElementShortName">srval_tq_binary</obj_property>
+                  <obj_property name="ObjectShortName">srval_tq_binary</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/data_rate_oq" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">data_rate_oq[1:3]</obj_property>
+                  <obj_property name="ObjectShortName">data_rate_oq[1:3]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/data_rate_tq" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">data_rate_tq[1:3]</obj_property>
+                  <obj_property name="ObjectShortName">data_rate_tq[1:3]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/serdes_mode" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">serdes_mode[1:5]</obj_property>
+                  <obj_property name="ObjectShortName">serdes_mode[1:5]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tbyte_ctl" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbyte_ctl[1:5]</obj_property>
+                  <obj_property name="ObjectShortName">tbyte_ctl[1:5]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/tbyte_src" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">tbyte_src[1:5]</obj_property>
+                  <obj_property name="ObjectShortName">tbyte_src[1:5]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/init_oq_string" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">init_oq_string[1:1]</obj_property>
+                  <obj_property name="ObjectShortName">init_oq_string[1:1]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/init_tq_string" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">init_tq_string[1:1]</obj_property>
+                  <obj_property name="ObjectShortName">init_tq_string[1:1]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/srval_oq_string" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">srval_oq_string[1:1]</obj_property>
+                  <obj_property name="ObjectShortName">srval_oq_string[1:1]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/CDC_axi_slave_tb/uut/dvi_disp_inst/DVI_TX/Inst_d0_serializer_10_1/oserdes_s/srval_tq_string" type="array" db_ref_id="1">
+                  <obj_property name="ElementShortName">srval_tq_string[1:1]</obj_property>
+                  <obj_property name="ObjectShortName">srval_tq_string[1:1]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

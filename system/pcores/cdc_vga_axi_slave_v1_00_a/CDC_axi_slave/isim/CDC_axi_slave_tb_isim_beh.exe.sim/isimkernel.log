@@ -1,0 +1,28 @@
+Command line:
+   CDC_axi_slave_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49545
+
+Mon Mar 17 19:50:23 2014
+
+
+ Elaboration Time: 0.109201 sec
+
+ Current Memory Usage: 667.984 Meg
+
+ Total Signals          : 929
+ Total Nets             : 2662
+ Total Signal Drivers   : 500
+ Total Blocks           : 126
+ Total Primitive Blocks : 48
+ Total Processes        : 463
+ Total Traceable Variables  : 933
+ Total Scalar Nets and Variables : 197976
+
+ Total Simulation Time: 0.327603 sec
+
+ Current Memory Usage: 667.984 Meg
+
+Mon Mar 17 20:01:32 2014
+

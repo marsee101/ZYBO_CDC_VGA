@@ -1,0 +1,112 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -i "C:/HDL/OVL/std_ovl_v2p8" -d "OVL_VERILOG" -d "OVL_ASSERT_ON" -d "OVL_FINISH_OFF" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/CDC_axi_slave_tb_isim_beh.exe" -prj "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/CDC_axi_slave_tb_beh.prj" "work.CDC_axi_slave_tb" "work.glbl" -L "accellera_ovl_vlog=C:\HDL\Xilinx\14.7\ISE_DS\ISE\verilog\hdp\nt64\accellera_ovl_vlog" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/frame_buffer.v" into library work
+WARNING:HDLCompiler:1474 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/convenient_functions.vh" Line 20: Loop statement with empty body is not permitted in this mode of verilog
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 4: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 10: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 16: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 22: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 28: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 34: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 40: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 46: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 52: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 53: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 55: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 56: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 57: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 59: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 60: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 61: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 62: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/frame_buffer.v" Line 31: Parameter declaration becomes local in frame_buffer with formal parameter declaration list
+Analyzing Verilog file "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/disp_timing.v" into library work
+WARNING:HDLCompiler:1474 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/convenient_functions.vh" Line 20: Loop statement with empty body is not permitted in this mode of verilog
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 4: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 10: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 16: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 22: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 28: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 34: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 40: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 46: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 52: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 53: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 55: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 56: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 57: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 59: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 60: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 61: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 62: Parameter declaration becomes local in disp_timing with formal parameter declaration list
+Analyzing Verilog file "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/char_gen_rom.v" into library work
+Analyzing Verilog file "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/CharDispCtrler.v" into library work
+WARNING:HDLCompiler:1474 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/convenient_functions.vh" Line 20: Loop statement with empty body is not permitted in this mode of verilog
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 4: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 10: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 16: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 22: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 28: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 34: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 40: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 46: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 52: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 53: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 55: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 56: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 57: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 59: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 60: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 61: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+WARNING:HDLCompiler:693 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/verilog/video_timing_param.vh" Line 62: Parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+Analyzing Verilog file "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/simulation/OVL_Checker.v" into library work
+Analyzing Verilog file "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/simulation/AXI4_Master_BFM.v" into library work
+Analyzing Verilog file "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/simulation/CDC_axi_slave_tb.v" into library work
+Analyzing Verilog file "C:/HDL/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/vhdl/video_timing_pkg.vhd" into library work
+Parsing VHDL file "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/ipcore_dir/afifo_sm.vhd" into library work
+Parsing VHDL file "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/../hdl/vhdl/cdc_vga_axi_slave.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module frame_buffer(RESOLUTION=0)
+Compiling module RAMB16_S9(INIT_08=256'b010100000...
+Compiling module char_gen_rom
+Compiling module disp_timing(RESOLUTION=0)
+Compiling module CharDispCtrler(0)
+Compiling module clk_gen
+Compiling module clk_gen(CLK_PERIOD=250)
+Compiling module reset_gen(RESET_STATE=1'b0,RESET...
+Compiling module AXI4_Master_BFM(DELAY=10)
+Compiling module ovl_increment(width=32,msg="Erro...
+Compiling module ovl_increment(width=32,msg="Erro...
+Compiling module ovl_handshake(min_ack_cycle=1,ma...
+Compiling module ovl_handshake(min_ack_cycle=1,ma...
+Compiling module ovl_transition(msg="Error_:_Asse...
+Compiling module ovl_transition(msg="Error_:_Asse...
+Compiling module ovl_never(msg="Read,_Assert_Erro...
+Compiling module OVL_Checker
+Compiling module CDC_axi_slave_tb
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package math_real
+Compiling package video_timing_pkg
+Compiling package vl_types
+Compiling architecture behavioral of entity fifo_generator_v8_4_bhv_ss [\fifo_generator_v8_4_bhv_ss(5,16...]
+Compiling architecture behavioral of entity fifo_generator_v8_4_bhv_preload0 [\fifo_generator_v8_4_bhv_preload...]
+Compiling architecture behavioral of entity fifo_generator_v8_4_conv [\fifo_generator_v8_4_conv(1,0,5,...]
+Compiling architecture behavioral of entity fifo_generator_v8_4 [\fifo_generator_v8_4(1,0,5,"Blan...]
+Compiling architecture afifo_sm_a of entity afifo_sm [afifo_sm_default]
+Compiling architecture implementation of entity cdc_vga_axi_slave [\cdc_vga_axi_slave(1,32,32,1,1,1...]
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 19 VHDL Units
+Compiled 19 Verilog Units
+Built simulation executable D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/IP_test/cdc_vga_axi_slave_v1_00_a/CDC_axi_slave/CDC_axi_slave_tb_isim_beh.exe
+Fuse Memory Usage: 40816 KB
+Fuse CPU Usage: 1669 ms

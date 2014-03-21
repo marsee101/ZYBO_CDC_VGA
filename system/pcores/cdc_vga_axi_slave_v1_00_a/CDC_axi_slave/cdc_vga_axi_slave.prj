@@ -1,0 +1,7 @@
+verilog work "../hdl/verilog/frame_buffer.v"
+verilog work "../hdl/verilog/disp_timing.v"
+verilog work "../hdl/verilog/char_gen_rom.v"
+vhdl work "../hdl/vhdl/video_timing_pkg.vhd"
+verilog work "../hdl/verilog/CharDispCtrler.v"
+vhdl work "ipcore_dir/afifo_sm.vhd"
+vhdl work "../hdl/vhdl/cdc_vga_axi_slave.vhd"

@@ -1,0 +1,4 @@
+vhdl isim_temp "../hdl/vhdl/Digilent_RTL/TMDSEncoder.vhd"
+vhdl isim_temp "../hdl/vhdl/Digilent_RTL/SerializerN_1.vhd"
+vhdl isim_temp "../hdl/vhdl/Digilent_RTL/DVITransmitter.vhd"
+vhdl isim_temp "../hdl/vhdl/dvi_disp.vhd"

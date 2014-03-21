@@ -1,0 +1,4 @@
+vhdl isim_temp "../hdl/vhdl/video_timing_pkg.vhd"
+vhdl isim_temp "ipcore_dir/afifo_sm.vhd"
+vhdl isim_temp "../hdl/vhdl/cdc_vga_axi_slave.vhd"
+verilog isim_temp "C:/HDL/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

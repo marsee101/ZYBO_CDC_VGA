@@ -1,0 +1,8 @@
+vhdl cdc_vga_axi_slave_v1_00_a D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\pcores\cdc_vga_axi_slave_v1_00_a/hdl/vhdl/video_timing_pkg.vhd
+vhdl cdc_vga_axi_slave_v1_00_a D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\pcores\cdc_vga_axi_slave_v1_00_a/hdl/vhdl/cdc_vga_axi_slave.vhd
+vhdl cdc_vga_axi_slave_v1_00_a D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\pcores\cdc_vga_axi_slave_v1_00_a/hdl/vhdl/afifo_sm.vhd
+verilog cdc_vga_axi_slave_v1_00_a D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\pcores\cdc_vga_axi_slave_v1_00_a/hdl/verilog/CharDispCtrler.v
+verilog cdc_vga_axi_slave_v1_00_a D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\pcores\cdc_vga_axi_slave_v1_00_a/hdl/verilog/char_gen_rom.v
+verilog cdc_vga_axi_slave_v1_00_a D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\pcores\cdc_vga_axi_slave_v1_00_a/hdl/verilog/disp_timing.v
+verilog cdc_vga_axi_slave_v1_00_a D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\pcores\cdc_vga_axi_slave_v1_00_a/hdl/verilog/frame_buffer.v
+verilog work ../hdl/system_cdc_vga_axi_slave_0_wrapper.v

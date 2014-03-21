@@ -1,0 +1,71 @@
+06:37:08 **** Build of project cdc_test_bsp ****
+make -k all 
+libgen -hw ../system_hw_platform/system.xml\
+	       \
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../system_hw_platform/system.xml -pe ps7_cortexa9_0
+-log libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'make -s libs "COMPILER=arm-xilinx-eabi-gcc"
+"ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS= -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+"Compiling standalone"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Compiling devcfg"
+"Compiling dmaps"
+"Compiling emacps"
+"Compiling gpiops"
+"Compiling iicps"
+"Compiling qspips"
+"Compiling scugic"
+"Compiling scutimer"
+"Compiling scuwdt"
+"Compiling uartps"
+"Compiling usbps"
+"Compiling xadcps"
+"Compiling cpu_cortexa9"
+Running execs_generate.
+'Finished building libraries'
+
+**** Build of configuration Debug for project cdc_test ****
+
+Nothing to build for project cdc_test
+06:38:41 **** Auto Build of configuration Debug for project cdc_test ****
+make all 
+'Building file: ../src/cdc_test.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../cdc_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/cdc_test.d" -MT"src/cdc_test.d" -o "src/cdc_test.o" "../src/cdc_test.c"
+'Finished building: ../src/cdc_test.c'
+' '
+'Building target: cdc_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../cdc_test_bsp/ps7_cortexa9_0/lib -o "cdc_test.elf"  ./src/cdc_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cdc_test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size cdc_test.elf  |tee "cdc_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19708	   1096	  29780	  50584	   c598	cdc_test.elf
+'Finished building: cdc_test.elf.size'
+' '
+06:39:28 **** Incremental Build of configuration Debug for project cdc_test ****
+make all 
+make: `all' Ç…ëŒÇµÇƒçsÇ§Ç◊Ç´éñÇÕÇ†ÇËÇ‹ÇπÇÒ.
+05:21:27 **** Incremental Build of configuration Debug for project cdc_test ****
+make all 
+make: `all' Ç…ëŒÇµÇƒçsÇ§Ç◊Ç´éñÇÕÇ†ÇËÇ‹ÇπÇÒ.

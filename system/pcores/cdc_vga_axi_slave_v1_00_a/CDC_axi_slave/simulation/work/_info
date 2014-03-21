@@ -1,0 +1,39 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\HDL\Altera\qdesigns\DE0\FPGA_Board_Dev\dai2sho\updown\Simulation
+vAXI4_BFM
+Z1 I6em7O[4WKI<b3A79mln2N3
+Z2 VhE`aSDI`GEWn0L8:Vz8VH2
+Z3 dH:\HDL\FndtnISEWork\Spartan6\Atlys\Atlys_XPS_CDC_SVGA_134\pcores\CDC_axi_slave_v1_00_a\CDC_axi_slave\simulation
+Z4 w1330892155
+Z5 8H:/HDL/FndtnISEWork/Spartan6/Atlys/Atlys_XPS_CDC_SVGA_134/pcores/CDC_axi_slave_v1_00_a/CDC_axi_slave/simulation/AXI4_BFM.v
+Z6 FH:/HDL/FndtnISEWork/Spartan6/Atlys/Atlys_XPS_CDC_SVGA_134/pcores/CDC_axi_slave_v1_00_a/CDC_axi_slave/simulation/AXI4_BFM.v
+L0 5
+Z7 OV;L;6.6d;45
+r1
+31
+Z8 o-work work -nocovercells -O0
+Z9 n@a@x@i4_@b@f@m
+Z10 !s100 Pln_^2<Zgm=7k;Fh^ainm3
+!s85 0
+!s101 -O0
+Z11 !s102 -nocovercells
+vCDC_axi_slave_tb
+!s100 GUZ^9ddFdD41G@4deRmOL3
+IHV^T_gDUXmOf@J5VY30G_0
+V``N9mo9ilmMjPE5Cd_1E50
+R3
+w1330892040
+8H:/HDL/FndtnISEWork/Spartan6/Atlys/Atlys_XPS_CDC_SVGA_134/pcores/CDC_axi_slave_v1_00_a/CDC_axi_slave/simulation/CDC_axi_slave_tb.v
+FH:/HDL/FndtnISEWork/Spartan6/Atlys/Atlys_XPS_CDC_SVGA_134/pcores/CDC_axi_slave_v1_00_a/CDC_axi_slave/simulation/CDC_axi_slave_tb.v
+L0 27
+R7
+r1
+!s85 0
+31
+!s101 -O0
+R11
+R8
+n@c@d@c_axi_slave_tb

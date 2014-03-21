@@ -1,0 +1,1134 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Mar 20 06:07:37 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "processing_system7_0_DDR_DM<0>" LOCATE = SITE "A1" LEVEL 1;
+COMP "processing_system7_0_DDR_DM<3>" LOCATE = SITE "Y1" LEVEL 1;
+COMP "processing_system7_0_DDR_DM<2>" LOCATE = SITE "T1" LEVEL 1;
+COMP "processing_system7_0_DDR_DM<1>" LOCATE = SITE "F1" LEVEL 1;
+COMP "processing_system7_0_MIO<6>" LOCATE = SITE "A5" LEVEL 1;
+COMP "processing_system7_0_MIO<5>" LOCATE = SITE "A6" LEVEL 1;
+COMP "processing_system7_0_MIO<8>" LOCATE = SITE "D5" LEVEL 1;
+COMP "processing_system7_0_MIO<7>" LOCATE = SITE "D8" LEVEL 1;
+COMP "processing_system7_0_MIO<9>" LOCATE = SITE "B5" LEVEL 1;
+COMP "processing_system7_0_MIO<0>" LOCATE = SITE "E6" LEVEL 1;
+COMP "processing_system7_0_MIO<2>" LOCATE = SITE "B8" LEVEL 1;
+COMP "processing_system7_0_MIO<1>" LOCATE = SITE "A7" LEVEL 1;
+COMP "processing_system7_0_MIO<4>" LOCATE = SITE "B7" LEVEL 1;
+COMP "processing_system7_0_MIO<3>" LOCATE = SITE "D6" LEVEL 1;
+COMP "processing_system7_0_DDR_ODT" LOCATE = SITE "N5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS_n<0>" LOCATE = SITE "B2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS_n<1>" LOCATE = SITE "F2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS_n<2>" LOCATE = SITE "T2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS_n<3>" LOCATE = SITE "W4" LEVEL 1;
+COMP "vga_vsync" LOCATE = SITE "R19" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<9>" LOCATE = SITE "J4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<8>" LOCATE = SITE "K1" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<7>" LOCATE = SITE "K4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<6>" LOCATE = SITE "L4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<5>" LOCATE = SITE "L1" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<4>" LOCATE = SITE "M4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<3>" LOCATE = SITE "K3" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<2>" LOCATE = SITE "M3" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<1>" LOCATE = SITE "K2" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<0>" LOCATE = SITE "N2" LEVEL 1;
+COMP "vga_blue<2>" LOCATE = SITE "K19" LEVEL 1;
+COMP "processing_system7_0_DDR_WEB_pin" LOCATE = SITE "M5" LEVEL 1;
+COMP "vga_blue<1>" LOCATE = SITE "M20" LEVEL 1;
+COMP "vga_blue<4>" LOCATE = SITE "G19" LEVEL 1;
+COMP "vga_blue<3>" LOCATE = SITE "J18" LEVEL 1;
+COMP "vga_blue<0>" LOCATE = SITE "P20" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS<0>" LOCATE = SITE "C2" LEVEL 1;
+COMP "processing_system7_0_DDR_CAS_n" LOCATE = SITE "P5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS<3>" LOCATE = SITE "W5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS<2>" LOCATE = SITE "R2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQS<1>" LOCATE = SITE "G2" LEVEL 1;
+COMP "vga_green<5>" LOCATE = SITE "F20" LEVEL 1;
+COMP "processing_system7_0_DDR_RAS_n" LOCATE = SITE "P4" LEVEL 1;
+COMP "vga_green<3>" LOCATE = SITE "J19" LEVEL 1;
+COMP "vga_green<4>" LOCATE = SITE "H20" LEVEL 1;
+COMP "vga_green<1>" LOCATE = SITE "N20" LEVEL 1;
+COMP "vga_green<2>" LOCATE = SITE "L19" LEVEL 1;
+COMP "vga_green<0>" LOCATE = SITE "H18" LEVEL 1;
+COMP "vga_hsync" LOCATE = SITE "P19" LEVEL 1;
+COMP "processing_system7_0_DDR_BankAddr<1>" LOCATE = SITE "R4" LEVEL 1;
+COMP "processing_system7_0_DDR_BankAddr<2>" LOCATE = SITE "J5" LEVEL 1;
+COMP "processing_system7_0_DDR_BankAddr<0>" LOCATE = SITE "L5" LEVEL 1;
+COMP "processing_system7_0_DDR_Clk" LOCATE = SITE "L2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<0>" LOCATE = SITE "C3" LEVEL 1;
+COMP "processing_system7_0_PS_PORB_pin" LOCATE = SITE "C7" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<4>" LOCATE = SITE "D3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<3>" LOCATE = SITE "A4" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<2>" LOCATE = SITE "A2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<1>" LOCATE = SITE "B3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<8>" LOCATE = SITE "E2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<7>" LOCATE = SITE "E1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<6>" LOCATE = SITE "C1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<5>" LOCATE = SITE "D1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<9>" LOCATE = SITE "E3" LEVEL 1;
+COMP "processing_system7_0_MIO<50>" LOCATE = SITE "B13" LEVEL 1;
+COMP "processing_system7_0_MIO<52>" LOCATE = SITE "C10" LEVEL 1;
+COMP "processing_system7_0_MIO<51>" LOCATE = SITE "B9" LEVEL 1;
+COMP "processing_system7_0_MIO<53>" LOCATE = SITE "C11" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<30>" LOCATE = SITE "V2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<31>" LOCATE = SITE "V3" LEVEL 1;
+COMP "processing_system7_0_DDR_VRN" LOCATE = SITE "G5" LEVEL 1;
+COMP "processing_system7_0_DDR_VRP" LOCATE = SITE "H5" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<20>" LOCATE = SITE "T4" LEVEL 1;
+COMP "processing_system7_0_DDR_Clk_n" LOCATE = SITE "M2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<24>" LOCATE = SITE "V1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<23>" LOCATE = SITE "U3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<22>" LOCATE = SITE "U2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<21>" LOCATE = SITE "U4" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<28>" LOCATE = SITE "Y2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<27>" LOCATE = SITE "Y4" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<26>" LOCATE = SITE "W1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<25>" LOCATE = SITE "Y3" LEVEL 1;
+COMP "processing_system7_0_PS_CLK_pin" LOCATE = SITE "E7" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<29>" LOCATE = SITE "W3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<10>" LOCATE = SITE "G3" LEVEL 1;
+COMP "processing_system7_0_DDR_CS_n" LOCATE = SITE "N1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<14>" LOCATE = SITE "H1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<13>" LOCATE = SITE "H2" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<12>" LOCATE = SITE "J3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<11>" LOCATE = SITE "H3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<18>" LOCATE = SITE "R3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<17>" LOCATE = SITE "P3" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<16>" LOCATE = SITE "P1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<15>" LOCATE = SITE "J1" LEVEL 1;
+COMP "processing_system7_0_DDR_DQ<19>" LOCATE = SITE "R1" LEVEL 1;
+COMP "vga_red<4>" LOCATE = SITE "F19" LEVEL 1;
+COMP "vga_red<3>" LOCATE = SITE "G20" LEVEL 1;
+COMP "vga_red<2>" LOCATE = SITE "J20" LEVEL 1;
+COMP "vga_red<1>" LOCATE = SITE "L20" LEVEL 1;
+COMP "vga_red<0>" LOCATE = SITE "M19" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<13>" LOCATE = SITE "D4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<14>" LOCATE = SITE "F4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<11>" LOCATE = SITE "G4" LEVEL 1;
+COMP "processing_system7_0_DDR_CKE" LOCATE = SITE "N3" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<12>" LOCATE = SITE "E4" LEVEL 1;
+COMP "processing_system7_0_DDR_Addr<10>" LOCATE = SITE "F5" LEVEL 1;
+COMP "processing_system7_0_PS_SRSTB_pin" LOCATE = SITE "B10" LEVEL 1;
+COMP "processing_system7_0_MIO<26>" LOCATE = SITE "A15" LEVEL 1;
+COMP "processing_system7_0_MIO<25>" LOCATE = SITE "F15" LEVEL 1;
+COMP "processing_system7_0_MIO<28>" LOCATE = SITE "C16" LEVEL 1;
+COMP "processing_system7_0_MIO<27>" LOCATE = SITE "D13" LEVEL 1;
+COMP "processing_system7_0_MIO<29>" LOCATE = SITE "C13" LEVEL 1;
+COMP "processing_system7_0_MIO<20>" LOCATE = SITE "A17" LEVEL 1;
+COMP "processing_system7_0_MIO<22>" LOCATE = SITE "B17" LEVEL 1;
+COMP "processing_system7_0_MIO<21>" LOCATE = SITE "F14" LEVEL 1;
+COMP "processing_system7_0_MIO<24>" LOCATE = SITE "A16" LEVEL 1;
+COMP "processing_system7_0_MIO<23>" LOCATE = SITE "D11" LEVEL 1;
+COMP "processing_system7_0_MIO<16>" LOCATE = SITE "A19" LEVEL 1;
+COMP "processing_system7_0_MIO<15>" LOCATE = SITE "C8" LEVEL 1;
+COMP "processing_system7_0_MIO<18>" LOCATE = SITE "B18" LEVEL 1;
+COMP "processing_system7_0_MIO<17>" LOCATE = SITE "E14" LEVEL 1;
+COMP "processing_system7_0_MIO<19>" LOCATE = SITE "D10" LEVEL 1;
+COMP "processing_system7_0_MIO<10>" LOCATE = SITE "E9" LEVEL 1;
+COMP "processing_system7_0_MIO<12>" LOCATE = SITE "D9" LEVEL 1;
+COMP "processing_system7_0_MIO<11>" LOCATE = SITE "C6" LEVEL 1;
+COMP "processing_system7_0_MIO<14>" LOCATE = SITE "C5" LEVEL 1;
+COMP "processing_system7_0_MIO<13>" LOCATE = SITE "E8" LEVEL 1;
+COMP "processing_system7_0_DDR_DRSTB" LOCATE = SITE "B4" LEVEL 1;
+COMP "processing_system7_0_MIO<46>" LOCATE = SITE "D16" LEVEL 1;
+COMP "processing_system7_0_MIO<45>" LOCATE = SITE "B15" LEVEL 1;
+COMP "processing_system7_0_MIO<48>" LOCATE = SITE "B12" LEVEL 1;
+COMP "processing_system7_0_MIO<47>" LOCATE = SITE "B14" LEVEL 1;
+COMP "processing_system7_0_MIO<49>" LOCATE = SITE "C12" LEVEL 1;
+COMP "processing_system7_0_MIO<40>" LOCATE = SITE "D14" LEVEL 1;
+COMP "processing_system7_0_MIO<42>" LOCATE = SITE "E12" LEVEL 1;
+COMP "processing_system7_0_MIO<41>" LOCATE = SITE "C17" LEVEL 1;
+COMP "processing_system7_0_MIO<44>" LOCATE = SITE "F13" LEVEL 1;
+COMP "processing_system7_0_MIO<43>" LOCATE = SITE "A9" LEVEL 1;
+COMP "processing_system7_0_MIO<36>" LOCATE = SITE "A11" LEVEL 1;
+COMP "processing_system7_0_MIO<35>" LOCATE = SITE "F12" LEVEL 1;
+COMP "processing_system7_0_MIO<38>" LOCATE = SITE "E13" LEVEL 1;
+COMP "processing_system7_0_MIO<37>" LOCATE = SITE "A10" LEVEL 1;
+COMP "processing_system7_0_MIO<39>" LOCATE = SITE "C18" LEVEL 1;
+COMP "processing_system7_0_MIO<30>" LOCATE = SITE "C15" LEVEL 1;
+COMP "processing_system7_0_MIO<32>" LOCATE = SITE "A14" LEVEL 1;
+COMP "processing_system7_0_MIO<31>" LOCATE = SITE "E16" LEVEL 1;
+COMP "processing_system7_0_MIO<34>" LOCATE = SITE "A12" LEVEL 1;
+COMP "processing_system7_0_MIO<33>" LOCATE = SITE "D15" LEVEL 1;
+TIMEGRP axi_interconnect_1_reset_resync = BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0";
+PIN system_i/processing_system7_0/processing_system7_0/PS7_i_pins<357> = BEL
+        "system_i/processing_system7_0/processing_system7_0/PS7_i" PINNAME
+        MAXIGP0ACLK;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem11_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem11"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem11_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem11"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem13_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem13"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem13_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem13"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem14_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem14"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem14_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem14"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem2_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem2"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem2_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem2"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem3_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem3"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem3_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem3"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem5_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem5"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem5_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem5"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem6_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem6"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem6_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem6"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem8_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem8"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem8_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem8"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem9_pins<63>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem9"
+        PINNAME CLKARDCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem9_pins<62>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem9"
+        PINNAME CLKARDCLKL;
+PIN
+        system_i/clock_generator_0/clock_generator_0/MMCM1_INST/MMCM_ADV_inst_pins<2>
+        = BEL
+        "system_i/clock_generator_0/clock_generator_0/MMCM1_INST/MMCM_ADV_inst"
+        PINNAME CLKIN1;
+TIMEGRP clk_fpga_0 = BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_2"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync_0"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/m_axi_reset_out_n_i"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_2"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_1"
+        BEL
+        "system_i/axi_interconnect_1/axi_interconnect_1/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/RST_FULL_GEN"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_asreg"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_asreg"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.rst_d3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_asreg_d2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_asreg_d2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.rst_d2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/rd_rst_asreg_d1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/wr_rst_asreg_d1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.rst_d1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_15"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_14"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_13"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_12"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_11"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_10"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_9"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_8"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_7"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_6"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_5"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_4"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_i_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_15"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_14"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_13"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_12"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_11"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_10"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_9"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_8"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_7"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_6"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_5"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_4"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/dout_i_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_fb_i"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc1.count_d2_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc1.count_d2_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc1.count_d2_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc1.count_d2_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc1.count_d1_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc1.count_d1_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc1.count_d1_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc1.count_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc1.count_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc1.count_d2_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc1.count_d2_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc1.count_d2_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc1.count_d2_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc1.count_d1_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc1.count_d1_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc1.count_d1_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc1.count_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc1.count_2"
+        BEL "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_14" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_13" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_12" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_11" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_10" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_9" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_8" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_7" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_6" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_5" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_4" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_3" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_2" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_1" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_addr_0" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_axi_count_7" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_axi_count_6" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_axi_count_5" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_axi_count_4" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_axi_count_3" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_axi_count_2" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_axi_count_1" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_axi_count_0" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdt_cs_FSM_FFd1" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdt_cs_FSM_FFd2" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_14" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_13" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_12" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_11" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_10" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_9" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_8" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_7" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_6" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_5" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_4" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_3" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_2" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_1" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_addr_0" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd1" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wrt_cs_FSM_FFd2" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_cdc_count_8" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_cdc_count_7" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_cdc_count_6" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_cdc_count_5" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_cdc_count_4" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_cdc_count_3" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_cdc_count_2" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_cdc_count_1" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rd_cdc_count_0" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bresp_1" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_11" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_10" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_9" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_8" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_7" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_6" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_5" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_4" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_3" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_2" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_1" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bid_0" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RRESP_1" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_11" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_10" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_9" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_8" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_7" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_6" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_5" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_4" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_3" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_2" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_1" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/S_AXI_RID_0" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo_wr_en" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdlast" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/wr_bvalid" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/awready" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/arready" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdt_cs_FSM_FFd1_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdt_cs_FSM_FFd2_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdt_cs_FSM_FFd1_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdt_cs_FSM_FFd2_2"
+        BEL "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/Mshreg_reset_2d"
+        BEL "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/reset_2d" PIN
+        "system_i/processing_system7_0/processing_system7_0/PS7_i_pins<357>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem11_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem11_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem13_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem13_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem14_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem14_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem2_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem2_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem3_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem3_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem5_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem5_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem6_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem6_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem8_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem8_pins<62>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem9_pins<63>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem9_pins<62>"
+        PIN
+        "system_i/clock_generator_0/clock_generator_0/MMCM1_INST/MMCM_ADV_inst_pins<2>"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM31/DP"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM31/SP"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM32/DP"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM32/SP"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM33/DP"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM33/SP"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM34/DP"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM34/SP"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMA_D1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMA"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMB_D1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMB"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMC_D1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMC"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMA_D1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMA"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMB_D1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMB"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMC_D1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMC"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD_D1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD";
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST_pins<32>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST"
+        PINNAME CLKARDCLK;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem11_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem11"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem11_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem11"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem13_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem13"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem13_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem13"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem14_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem14"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem14_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem14"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem2_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem2"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem2_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem2"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem3_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem3"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem3_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem3"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem5_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem5"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem5_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem5"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem6_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem6"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem6_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem6"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem8_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem8"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem8_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem8"
+        PINNAME CLKBWRCLKL;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem9_pins<65>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem9"
+        PINNAME CLKBWRCLKU;
+PIN
+        system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem9_pins<64>
+        = BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem9"
+        PINNAME CLKBWRCLKL;
+TIMEGRP system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = BEL
+        "system_i/clock_generator_0/clock_generator_0/MMCM1_CLKOUT0_BUFG_INST"
+        BEL "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/vsync_n" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/hsync_n" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/blue_out_4" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/blue_out_3" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/blue_out_2" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/green_out_5" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/green_out_4" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/green_out_3" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/red_out_4" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/red_out_3" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/red_out_2" BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_14"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_13"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_12"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_11"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_10"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_9"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_8"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_7"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_6"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_5"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_4"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_addr_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_data_node_6"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_data_node_5"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_data_node_4"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_data_node_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_data_node_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_data_node_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_data_node_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_color_15"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_color_14"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_color_13"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_color_12"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_color_11"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_color_10"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_color_9"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_color_8"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_color_7"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/v_sync_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/h_sync_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_14"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_13"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_12"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_11"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_10"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_9"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_8"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_7"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_6"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_5"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_4"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/h_sync_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/v_sync_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/v_sync_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/h_sync_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_point_10"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_point_9"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_point_8"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_point_7"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_point_6"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_point_5"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_point_4"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_point_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_point_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_point_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_point_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_point_11"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_point_10"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_point_9"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_point_8"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_point_7"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_point_6"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_point_5"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_point_4"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_point_3"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_point_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_point_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_point_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_addr_node_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_addr_node_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_addr_node_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_addr_node_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_addr_node_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_addr_node_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_sync_node"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_sync_pulse_node"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/h_sync_node"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/display_on_node"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/blue_node_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/blue_node_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/blue_node_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/green_node_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/green_node_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/green_node_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_0"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/Mshreg_display_on_d2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_on_d2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/Mshreg_reset_p2d"
+        BEL "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/reset_p2d" PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST_pins<32>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem1_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem10_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem11_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem11_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem12_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem13_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem13_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem14_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem14_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem15_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem16_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem2_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem2_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem3_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem3_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem4_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem5_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem5_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem6_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem6_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem7_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem8_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem8_pins<64>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem9_pins<65>"
+        PIN
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem9_pins<64>";
+TIMEGRP axi_interconnect_1_reset_source = FFS(*) PADS(*);
+PATH TS_axi_interconnect_1_reset_resync_path = FROM TIMEGRP
+        "axi_interconnect_1_reset_source" TO TIMEGRP
+        "axi_interconnect_1_reset_resync";
+PATH "TS_axi_interconnect_1_reset_resync_path" TIG;
+TS_clk_fpga_0 = PERIOD TIMEGRP "clk_fpga_0" 100 MHz HIGH 50%;
+TS_system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = PERIOD
+        TIMEGRP
+        "system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0"
+        TS_clk_fpga_0 * 1.48 HIGH 50%;
+SCHEMATIC END;
+

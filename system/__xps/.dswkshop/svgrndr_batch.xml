@@ -1,0 +1,18 @@
+
+<RENDERBATCH>
+
+  <RENDERIMG RASNAME="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\SDK\SDK_Export\hw\imgs\processing_system7_0.jpg" SVGNAME="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\SDK\SDK_Export\hw\imgs\processing_system7_0.svg" TMPSVGFN="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\__xps\.dswkshop\processing_system7_0.svg"/>
+
+  <RENDERIMG RASNAME="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\SDK\SDK_Export\hw\imgs\axi_interconnect_1.jpg" SVGNAME="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\SDK\SDK_Export\hw\imgs\axi_interconnect_1.svg" TMPSVGFN="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\__xps\.dswkshop\axi_interconnect_1.svg"/>
+
+  <RENDERIMG RASNAME="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\SDK\SDK_Export\hw\imgs\clock_generator_0.jpg" SVGNAME="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\SDK\SDK_Export\hw\imgs\clock_generator_0.svg" TMPSVGFN="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\__xps\.dswkshop\clock_generator_0.svg"/>
+
+  <RENDERIMG RASNAME="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\SDK\SDK_Export\hw\imgs\clkgen_reset_logic.jpg" SVGNAME="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\SDK\SDK_Export\hw\imgs\clkgen_reset_logic.svg" TMPSVGFN="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\__xps\.dswkshop\clkgen_reset_logic.svg"/>
+
+  <RENDERIMG RASNAME="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\SDK\SDK_Export\hw\imgs\cdc_reset_logic.jpg" SVGNAME="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\SDK\SDK_Export\hw\imgs\cdc_reset_logic.svg" TMPSVGFN="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\__xps\.dswkshop\cdc_reset_logic.svg"/>
+
+  <RENDERIMG RASNAME="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\SDK\SDK_Export\hw\imgs\cdc_vga_axi_slave_0.jpg" SVGNAME="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\SDK\SDK_Export\hw\imgs\cdc_vga_axi_slave_0.svg" TMPSVGFN="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\__xps\.dswkshop\cdc_vga_axi_slave_0.svg"/>
+
+  <RENDERIMG RASNAME="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\SDK\SDK_Export\hw\imgs\system_blkd.jpg" SVGNAME="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\SDK\SDK_Export\hw\imgs\system_blkd.svg" TMPSVGFN="D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\__xps\.dswkshop\system_blkd.svg"/>
+
+</RENDERBATCH>

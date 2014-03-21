@@ -1,0 +1,8 @@
+verilog isim_temp "../hdl/verilog/frame_buffer.v"
+verilog isim_temp "../hdl/verilog/disp_timing.v"
+verilog isim_temp "../hdl/verilog/char_gen_rom.v"
+verilog isim_temp "../hdl/verilog/CharDispCtrler.v"
+verilog isim_temp "simulation/OVL_Checker.v"
+verilog isim_temp "simulation/AXI4_Master_BFM.v"
+verilog isim_temp "simulation/CDC_axi_slave_tb.v"
+verilog isim_temp "C:/HDL/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

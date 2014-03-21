@@ -1,0 +1,931 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Reading design: cdc_vga_axi_slave.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "cdc_vga_axi_slave.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "cdc_vga_axi_slave"
+Output Format                      : NGC
+Target Device                      : xc7z010-1-clg400
+
+---- Source Options
+Top Module Name                    : cdc_vga_axi_slave
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\frame_buffer.v" into library work
+Parsing module <frame_buffer>.
+Parsing verilog file "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" included at line 17.
+Parsing verilog file "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/convenient_functions.vh" included at line 18.
+WARNING:HDLCompiler:1474 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/convenient_functions.vh" Line 20: Loop statement with empty body is not permitted in this mode of verilog
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 4. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 10. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 16. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 22. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 28. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 34. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 40. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 46. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 52. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 53. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 55. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 56. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 57. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 59. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 60. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 61. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 62. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\frame_buffer.v" Line 31. parameter declaration becomes local in frame_buffer with formal parameter declaration list
+Analyzing Verilog file "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\disp_timing.v" into library work
+Parsing module <disp_timing>.
+Parsing verilog file "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" included at line 10.
+Parsing verilog file "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/convenient_functions.vh" included at line 11.
+WARNING:HDLCompiler:1474 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/convenient_functions.vh" Line 20: Loop statement with empty body is not permitted in this mode of verilog
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 4. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 10. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 16. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 22. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 28. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 34. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 40. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 46. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 52. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 53. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 55. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 56. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 57. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 59. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 60. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 61. parameter declaration becomes local in disp_timing with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 62. parameter declaration becomes local in disp_timing with formal parameter declaration list
+Analyzing Verilog file "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\char_gen_rom.v" into library work
+Parsing module <char_gen_rom>.
+Analyzing Verilog file "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\CharDispCtrler.v" into library work
+Parsing module <CharDispCtrler>.
+Parsing verilog file "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" included at line 16.
+Parsing verilog file "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/convenient_functions.vh" included at line 17.
+WARNING:HDLCompiler:1474 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/convenient_functions.vh" Line 20: Loop statement with empty body is not permitted in this mode of verilog
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 4. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 10. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 16. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 22. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 28. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 34. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 40. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 46. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 52. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 53. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 55. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 56. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 57. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 59. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 60. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 61. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\/video_timing_param.vh" Line 62. parameter declaration becomes local in CharDispCtrler with formal parameter declaration list
+Parsing VHDL file "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\vhdl\video_timing_pkg.vhd" into library work
+Parsing package <video_timing_pkg>.
+Parsing VHDL file "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\CDC_axi_slave\ipcore_dir\afifo_sm.vhd" into library work
+Parsing entity <afifo_sm>.
+Parsing architecture <afifo_sm_a> of entity <afifo_sm>.
+Parsing VHDL file "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\vhdl\cdc_vga_axi_slave.vhd" into library work
+Parsing entity <cdc_vga_axi_slave>.
+Parsing architecture <implementation> of entity <cdc_vga_axi_slave>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <cdc_vga_axi_slave> (architecture <implementation>) with generics from library <work>.
+
+Elaborating entity <afifo_sm> (architecture <afifo_sm_a>) from library <work>.
+Going to verilog side to elaborate module CharDispCtrler
+
+Elaborating module <CharDispCtrler(RESOLUTION=1)>.
+
+Elaborating module <frame_buffer(RESOLUTION=1)>.
+
+Elaborating module <char_gen_rom>.
+
+Elaborating module
+<RAMB16_S9(INIT_00=256'b0,INIT_01=256'b0,INIT_02=256'b0,INIT_03=256'b0,INIT_04=256'b0,INIT_05=256'b0,INIT_06=256'b0,INIT_07=256'b0,INIT_08=256'b010100000101000111111100010100011111110001010000010100000000000000000000000000000000000000000000010010001001000011011000000000000010000000000000001000000010000000100000001000000010000000000000000000000000000000000000000000000000000000000000000000,INIT_09=256'b010000001000000011000000000000100110000110010001000100101010000001000000101000000100000000000001000010101001000100100000010000001001000100101010000100000000000001000001111100100100000111110000010010011111000001000,INIT_0A=256'b01000000010000000100001111111000010000000100000001000000000000100100100101010000111000111111100011100001010100100100100000000000001000000100000010000000100000001000000001000000001000000000000100000000100000000100000001000000010000001000000100000,INIT_0B=256'b01000000100000010000001000000100000010000001000000000000000000011000000110000000000000000000000000000000000000000000000000000000000000
+000000000000011111110000000000000000000000000000000000000010000001000000011000000000000000000000000000000000,INIT_0C=256'b011100001000100010000000011000001000000010001000011100000000000011111000000010000001000001100000100000001000100001110000000000000111000000100000001000000010000000100000001100000010000000000000011000001001000100001001000010010000100010010000011000,INIT_0D=256'b010000000100000010000000100000010000000100000001111110000000000011110001000010010000100011111000000010010000100011110000000000000111100010000000100000000111100000001000000010001111100000000000100000001000000111111000100010001001000010100000110000,INIT_0E=256'b0100000010000000110000000000000000000000110000000000000000000000000000000000000011000000000000000000000011000000000000000000001111000100001001000000011111000100001001000010001111000000000000111100010000100100001000111100010000100100001000111100,INIT_0F=256'b0100000000000000010000001000000100000001000100001110000000000000001000000100000010000001000000001000000001000000001000000000
+0000000000000000000111110000000000011111000000000000000000000000000100000000100000000100000000100000010000001000000100000,INIT_10=256'b011100001000100000000100000001000000010010001000011100000000000011111101000001010000010011111101000001010000010011111100000000010000010100000101111111001000100011011000010100000111000000000001011100001010100001010101010101010010010010001000011110,INIT_11=256'b011100001000100111000100000001000000010010001000011100000000000000000100000001000000010011111100000001000000010111111100000000011111110000000100000001001111110000000100000001011111110000000000011111001000010100000101000001010000010010000100011111,INIT_12=256'b0100010000100100000101000000110000010100001001000100010000000000000111000010001000100000001000000010000000100000011111000000000000111000000100000001000000010000000100000001000000111000000000001000001010000010100000101111111010000010100000101000001,INIT_13=256'b011100001000100100000101000001010000010010001000011100000000000100000101100001010100010100100101000101010000
+110100000100000000010000010100000101000001010010010101010101100011010000010000000000111110000000100000001000000010000000100000001000000010,INIT_14=256'b0111100010000100100000000111100000000100100001000111100000000000010000100010001000010010011111101000001010000010011111100000000010111000010011001011001010000010100000100100010000111000000000000000001000000010000000100111111010000010100000100111111,INIT_15=256'b0100010010101010101010101010101010010010100100101001001000000000000100000010100000101000010001000100010010000010100000100000000000111000010001001000001010000010100000101000001010000010000000000001000000010000000100000001000000010000000100001111111,INIT_16=256'b0111000000010000000100000001000000010000000100000111000000000000011111100000010000001000000100000010000001000000011111100000000000010000000100000001000000010000001010000100010010000010000000001000001001000100001010000001000000101000010001001000001,INIT_17=256'b01111111000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000100010000101000000100000000000000111000001000000010000000100000001000000010000000111000000000000001000000010000011111000001000001111100001010000100010,INIT_18=256'b0111000000001000000010000111000000000000000000000000000000000000001111000100010001000100001111000000010000000100000000000000000001111000010001000111100001000000001110000000000000000000000000000000000000000000000000000000000000110000000100000010000,INIT_19=256'b011100001000100001110000001100000100100010110000000000000000000000100000001000000010000001110000001000000100000000000000000000000111000000001000011110001000100001110000000000000000000000000000111100001000100010001000111100001000000010000000000000,INIT_1A=256'b0100100000101000000110000010100001001000000010000000000000000000000110000010010000100000001000000000000000100000000000000000000000010000000100000001000000000000000100000000000000000000000000000100100001001000010010000011100000001000000010000000000,INIT_1B=256'b011000001001000010010000100100000110000000000000000000000000000010100
+000101000001010000010100000010100000000000000000000000000010101000101010001010100010101000010101000000000000000000000000000011000000010000000100000001000000010000000100000000000,INIT_1C=256'b011000001000000001100000000100000110000000000000000000000000000000010000000100000001000000110000110100000000000000000000000000001000000010000000111000001001000011100000000000000000000000000000000100000001000001110000100100000111000000000000000000,INIT_1D=256'b010100001010100010101000101010001000100000000000000000000000000000100000010100000101000010001000100010000000000000000000000000000110000010010000100100001001000010010000000000000000000000000000011000000010000000100000001000000111000000100000000000,INIT_1E=256'b010000000010000000100000001100000010000000100000010000000000000011111000000100000010000001000000111110000000000000000000000000000000100000010000001000000101000010001000000000000000000000000000100010000101000000100000010100001000100000000000000000,INIT_1F=256'b01010000101000000000000000010000001000000010000001100
+00000100000001000000001000000000000001000000010000000100000001000000010000000100000001000,INIT_20=256'b0,INIT_21=256'b0,INIT_22=256'b0,INIT_23=256'b0,INIT_24=256'b0,INIT_25=256'b0,INIT_26=256'b0,INIT_27=256'b0,INIT_28=256'b0,INIT_29=256'b0,INIT_2A=256'b0,INIT_2B=256'b0,INIT_2C=256'b0,INIT_2D=256'b0,INIT_2E=256'b0,INIT_2F=256'b0,INIT_31=256'b0,INIT_32=256'b0,INIT_33=256'b0,INIT_34=256'b0,INIT_35=256'b0,INIT_36=256'b0,INIT_37=256'b0,INIT_38=256'b0,INIT_39=256'b0,INIT_3A=256'b0,INIT_3B=256'b0,INIT_3C=256'b0,INIT_3D=256'b0,INIT_3E=256'b0,INIT_3F=256'b0,INITP_00=256'b0,INITP_01=256'b0,INITP_02=256'b0,INITP_03=256'b0,INITP_04=256'b0,INITP_05=256'b0,INITP_06=256'b0,INITP_07=256'b0>.
+
+Elaborating module <disp_timing(RESOLUTION=1)>.
+WARNING:HDLCompiler:413 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\disp_timing.v" Line 50: Result of 12-bit expression is truncated to fit in 11-bit target.
+WARNING:HDLCompiler:413 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\disp_timing.v" Line 64: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:1127 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\CharDispCtrler.v" Line 95: Assignment to page_start ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\CharDispCtrler.v" Line 160: Result of 14-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:634 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\CharDispCtrler.v" Line 38: Net <reset_pxi> does not have a driver.
+Back to vhdl to continue elaboration
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <cdc_vga_axi_slave>.
+    Related source file is "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\vhdl\cdc_vga_axi_slave.vhd".
+        C_S_AXI_ID_WIDTH = 1
+        C_S_AXI_ADDR_WIDTH = 32
+        C_S_AXI_DATA_WIDTH = 32
+        C_S_AXI_AWUSER_WIDTH = 1
+        C_S_AXI_ARUSER_WIDTH = 1
+        C_S_AXI_WUSER_WIDTH = 1
+        C_S_AXI_RUSER_WIDTH = 1
+        C_S_AXI_BUSER_WIDTH = 1
+        RESOLUTION = 1
+WARNING:Xst:647 - Input <S_AXI_AWADDR<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_AWADDR<31:15>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_AWLEN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_AWSIZE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_AWLOCK> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_AWCACHE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_AWPROT> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_AWREGION> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_AWQOS> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_AWUSER> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_WID> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_WDATA<31:16>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_WSTRB> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_WUSER> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_ARADDR<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_ARADDR<31:15>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_ARSIZE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_ARLOCK> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_ARCACHE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_ARPROT> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_ARREGION> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_ARQOS> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <S_AXI_ARUSER> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\vhdl\cdc_vga_axi_slave.vhd" line 377: Output port <full> of the instance <rdfifo> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\vhdl\cdc_vga_axi_slave.vhd" line 377: Output port <overflow> of the instance <rdfifo> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\vhdl\cdc_vga_axi_slave.vhd" line 377: Output port <almost_empty> of the instance <rdfifo> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\vhdl\cdc_vga_axi_slave.vhd" line 377: Output port <underflow> of the instance <rdfifo> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\vhdl\cdc_vga_axi_slave.vhd" line 501: Output port <display_enable> of the instance <CDC_inst> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <reset_2d>.
+    Found 1-bit register for signal <reset_p1d>.
+    Found 1-bit register for signal <reset_p2d>.
+    Found 2-bit register for signal <wrt_cs>.
+    Found 1-bit register for signal <S_AXI_AWREADY>.
+    Found 13-bit register for signal <wr_addr>.
+    Found 1-bit register for signal <S_AXI_BID>.
+    Found 2-bit register for signal <S_AXI_BRESP>.
+    Found 1-bit register for signal <S_AXI_BVALID>.
+    Found 2-bit register for signal <rdt_cs>.
+    Found 1-bit register for signal <S_AXI_ARREADY>.
+    Found 13-bit register for signal <rd_addr>.
+    Found 1-bit register for signal <rdfifo_wr_en>.
+    Found 9-bit register for signal <rd_cdc_count>.
+    Found 8-bit register for signal <rd_axi_count>.
+    Found 1-bit register for signal <rdlast>.
+    Found 1-bit register for signal <S_AXI_RLAST>.
+    Found 1-bit register for signal <S_AXI_RID>.
+    Found 2-bit register for signal <S_AXI_RRESP>.
+    Found 5-bit register for signal <red_out>.
+    Found 6-bit register for signal <green_out>.
+    Found 5-bit register for signal <blue_out>.
+    Found 1-bit register for signal <hsync_n>.
+    Found 1-bit register for signal <vsync_n>.
+    Found 1-bit register for signal <reset_1d>.
+    Found finite state machine <FSM_0> for signal <wrt_cs>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 5                                              |
+    | Outputs            | 6                                              |
+    | Clock              | ACLK (rising_edge)                             |
+    | Reset              | reset_2d (positive)                            |
+    | Reset type         | synchronous                                    |
+    | Reset State        | idle_wr                                        |
+    | Power Up State     | idle_wr                                        |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <rdt_cs>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 7                                              |
+    | Clock              | ACLK (rising_edge)                             |
+    | Reset              | reset_2d (positive)                            |
+    | Reset type         | synchronous                                    |
+    | Reset State        | idle_rd                                        |
+    | Power Up State     | idle_rd                                        |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 13-bit adder for signal <wr_addr[12]_GND_7_o_add_15_OUT> created at line 267.
+    Found 13-bit adder for signal <rd_addr[12]_GND_7_o_add_42_OUT> created at line 370.
+    Found 9-bit adder for signal <GND_7_o_GND_7_o_add_52_OUT> created at line 416.
+    Found 9-bit subtractor for signal <GND_7_o_GND_7_o_sub_56_OUT<8:0>> created at line 418.
+    Found 8-bit subtractor for signal <GND_7_o_GND_7_o_sub_63_OUT<7:0>> created at line 433.
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  77 D-type flip-flop(s).
+	inferred   5 Multiplexer(s).
+	inferred   2 Finite State Machine(s).
+Unit <cdc_vga_axi_slave> synthesized.
+
+Synthesizing Unit <CharDispCtrler>.
+    Related source file is "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\CharDispCtrler.v".
+        RESOLUTION = 1
+INFO:Xst:3210 - "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\CharDispCtrler.v" line 92: Output port <page_start> of the instance <disp_timing_inst> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <reset_pxi> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 1-bit register for signal <display_on_d2>.
+    Found 3-bit register for signal <red_node>.
+    Found 3-bit register for signal <green_node>.
+    Found 3-bit register for signal <blue_node>.
+    Found 7-bit register for signal <char_data_node>.
+    Found 9-bit register for signal <temp_color>.
+    Found 13-bit register for signal <display_addr>.
+    Found 13-bit register for signal <temp_pointer>.
+    Found 1-bit register for signal <h_sync_1>.
+    Found 1-bit register for signal <v_sync_1>.
+    Found 1-bit register for signal <h_sync_2>.
+    Found 1-bit register for signal <v_sync_2>.
+    Found 1-bit register for signal <h_sync_3>.
+    Found 1-bit register for signal <v_sync_3>.
+    Found 1-bit register for signal <display_on_d1>.
+    Found 13-bit adder for signal <display_addr[12]_GND_10_o_add_34_OUT> created at line 160.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  59 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <CharDispCtrler> synthesized.
+
+Synthesizing Unit <frame_buffer>.
+    Related source file is "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\frame_buffer.v".
+        RESOLUTION = 1
+WARNING:Xst:647 - Input <reset_a> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <reset_b> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8192x16-bit dual-port RAM <Mram_mem> for signal <mem>.
+    Found 16-bit register for signal <display_dout>.
+    Found 16-bit register for signal <processor_dout>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  32 D-type flip-flop(s).
+Unit <frame_buffer> synthesized.
+
+Synthesizing Unit <char_gen_rom>.
+    Related source file is "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\char_gen_rom.v".
+    Summary:
+	no macro.
+Unit <char_gen_rom> synthesized.
+
+Synthesizing Unit <disp_timing>.
+    Related source file is "D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\IP_test\cdc_vga_axi_slave_v1_00_a\hdl\verilog\disp_timing.v".
+        RESOLUTION = 1
+    Found 10-bit register for signal <h_addr_node<9:0>>.
+    Found 10-bit register for signal <v_point>.
+    Found 10-bit register for signal <v_addr_node>.
+    Found 11-bit register for signal <h_point>.
+    Found 1-bit register for signal <display_on_node>.
+    Found 1-bit register for signal <page_start_node>.
+    Found 1-bit register for signal <h_sync_node>.
+    Found 1-bit register for signal <h_sync_pulse_node>.
+    Found 1-bit register for signal <v_sync_node>.
+    Found 11-bit adder for signal <h_point[10]_GND_14_o_add_1_OUT> created at line 50.
+    Found 10-bit adder for signal <v_point[9]_GND_14_o_add_8_OUT> created at line 64.
+    Found 11-bit comparator greater for signal <h_point[10]_GND_14_o_LessThan_15_o> created at line 73
+    Found 10-bit comparator greater for signal <v_point[9]_PWR_16_o_LessThan_16_o> created at line 73
+    Found 11-bit comparator lessequal for signal <n0021> created at line 97
+    Found 11-bit comparator greater for signal <h_point[10]_GND_14_o_LessThan_19_o> created at line 97
+    Found 10-bit comparator lessequal for signal <n0030> created at line 121
+    Found 10-bit comparator greater for signal <v_point[9]_PWR_16_o_LessThan_22_o> created at line 121
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  46 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <disp_timing> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8192x16-bit dual-port RAM                             : 1
+# Adders/Subtractors                                   : 7
+ 10-bit adder                                          : 1
+ 11-bit adder                                          : 1
+ 13-bit adder                                          : 3
+ 8-bit subtractor                                      : 1
+ 9-bit addsub                                          : 1
+# Registers                                            : 49
+ 1-bit register                                        : 27
+ 10-bit register                                       : 3
+ 11-bit register                                       : 1
+ 13-bit register                                       : 4
+ 16-bit register                                       : 2
+ 2-bit register                                        : 2
+ 3-bit register                                        : 3
+ 5-bit register                                        : 2
+ 6-bit register                                        : 1
+ 7-bit register                                        : 1
+ 8-bit register                                        : 1
+ 9-bit register                                        : 2
+# Comparators                                          : 6
+ 10-bit comparator greater                             : 2
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greater                             : 2
+ 11-bit comparator lessequal                           : 1
+# Multiplexers                                         : 15
+ 10-bit 2-to-1 multiplexer                             : 1
+ 11-bit 2-to-1 multiplexer                             : 1
+ 13-bit 2-to-1 multiplexer                             : 7
+ 3-bit 2-to-1 multiplexer                              : 3
+ 7-bit 2-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 1
+ 9-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 2
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/afifo_sm.ngc>.
+Loading core <afifo_sm> for timing and area information for instance <rdfifo>.
+WARNING:Xst:1710 - FF/Latch <red_out_0> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <red_out_1> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <green_out_0> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <green_out_1> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <green_out_2> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <blue_out_0> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <blue_out_1> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S_AXI_RRESP_0> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wr_bresp_0> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <h_addr_node_3> of sequential type is unconnected in block <disp_timing_inst>.
+WARNING:Xst:2677 - Node <h_addr_node_4> of sequential type is unconnected in block <disp_timing_inst>.
+WARNING:Xst:2677 - Node <h_addr_node_5> of sequential type is unconnected in block <disp_timing_inst>.
+WARNING:Xst:2677 - Node <h_addr_node_6> of sequential type is unconnected in block <disp_timing_inst>.
+WARNING:Xst:2677 - Node <h_addr_node_7> of sequential type is unconnected in block <disp_timing_inst>.
+WARNING:Xst:2677 - Node <h_addr_node_8> of sequential type is unconnected in block <disp_timing_inst>.
+WARNING:Xst:2677 - Node <h_addr_node_9> of sequential type is unconnected in block <disp_timing_inst>.
+WARNING:Xst:2677 - Node <v_addr_node_3> of sequential type is unconnected in block <disp_timing_inst>.
+WARNING:Xst:2677 - Node <v_addr_node_4> of sequential type is unconnected in block <disp_timing_inst>.
+WARNING:Xst:2677 - Node <v_addr_node_5> of sequential type is unconnected in block <disp_timing_inst>.
+WARNING:Xst:2677 - Node <v_addr_node_6> of sequential type is unconnected in block <disp_timing_inst>.
+WARNING:Xst:2677 - Node <v_addr_node_7> of sequential type is unconnected in block <disp_timing_inst>.
+WARNING:Xst:2677 - Node <v_addr_node_8> of sequential type is unconnected in block <disp_timing_inst>.
+WARNING:Xst:2677 - Node <v_addr_node_9> of sequential type is unconnected in block <disp_timing_inst>.
+
+Synthesizing (advanced) Unit <CharDispCtrler>.
+The following registers are absorbed into counter <display_addr>: 1 register on signal <display_addr>.
+Unit <CharDispCtrler> synthesized (advanced).
+
+Synthesizing (advanced) Unit <cdc_vga_axi_slave>.
+The following registers are absorbed into counter <rd_axi_count>: 1 register on signal <rd_axi_count>.
+The following registers are absorbed into counter <wr_addr>: 1 register on signal <wr_addr>.
+The following registers are absorbed into counter <rd_addr>: 1 register on signal <rd_addr>.
+Unit <cdc_vga_axi_slave> synthesized (advanced).
+
+Synthesizing (advanced) Unit <disp_timing>.
+The following registers are absorbed into counter <h_point>: 1 register on signal <h_point>.
+The following registers are absorbed into counter <v_point>: 1 register on signal <v_point>.
+Unit <disp_timing> synthesized (advanced).
+
+Synthesizing (advanced) Unit <frame_buffer>.
+INFO:Xst:3226 - The RAM <Mram_mem> will be implemented as a BLOCK RAM, absorbing the following register(s): <processor_dout> <display_dout>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8192-word x 16-bit                  |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <clka>          | rise     |
+    |     weA            | connected to signal <processor_we>  | high     |
+    |     addrA          | connected to signal <processor_addr> |          |
+    |     diA            | connected to signal <processor_din> |          |
+    |     doA            | connected to signal <processor_dout> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 8192-word x 16-bit                  |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clkb>          | rise     |
+    |     addrB          | connected to signal <display_addr>  |          |
+    |     doB            | connected to signal <display_dout>  |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <frame_buffer> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8192x16-bit dual-port block RAM                       : 1
+# Adders/Subtractors                                   : 1
+ 9-bit addsub                                          : 1
+# Counters                                             : 6
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+ 13-bit up counter                                     : 3
+ 8-bit down counter                                    : 1
+# Registers                                            : 114
+ Flip-Flops                                            : 114
+# Comparators                                          : 6
+ 10-bit comparator greater                             : 2
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greater                             : 2
+ 11-bit comparator lessequal                           : 1
+# Multiplexers                                         : 17
+ 1-bit 2-to-1 multiplexer                              : 9
+ 13-bit 2-to-1 multiplexer                             : 4
+ 3-bit 2-to-1 multiplexer                              : 3
+ 7-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <red_out_0> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <red_out_1> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <green_out_0> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <green_out_1> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <green_out_2> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <blue_out_0> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <blue_out_1> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S_AXI_RRESP_0> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wr_bresp_0> (without init value) has a constant value of 0 in block <cdc_vga_axi_slave>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <rdlast> in Unit <cdc_vga_axi_slave> is equivalent to the following FF/Latch, which will be removed : <rlast> 
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <wrt_cs[1:2]> with user encoding.
+------------------------
+ State      | Encoding
+------------------------
+ idle_wr    | 00
+ awr_wait   | 01
+ awr_accept | 10
+ wr_burst   | 11
+------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_1> on signal <rdt_cs[1:2]> with user encoding.
+------------------------
+ State      | Encoding
+------------------------
+ idle_rd    | 00
+ arr_wait   | 01
+ arr_accept | 10
+ rd_burst   | 11
+------------------------
+INFO:Xst:1901 - Instance char_gen_rom_inst/CHAR_GEN_ROM_INST in unit char_gen_rom_inst/CHAR_GEN_ROM_INST of type RAMB16_S9 has been replaced by RAMB18E1
+
+Optimizing unit <cdc_vga_axi_slave> ...
+
+Optimizing unit <CharDispCtrler> ...
+
+Optimizing unit <disp_timing> ...
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/v_addr_node_9> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/v_addr_node_8> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/v_addr_node_7> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/v_addr_node_6> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/v_addr_node_5> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/v_addr_node_4> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/v_addr_node_3> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/h_addr_node_9> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/h_addr_node_8> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/h_addr_node_7> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/h_addr_node_6> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/h_addr_node_5> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/h_addr_node_4> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/h_addr_node_3> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+WARNING:Xst:2677 - Node <CDC_inst/disp_timing_inst/page_start_node> of sequential type is unconnected in block <cdc_vga_axi_slave>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block cdc_vga_axi_slave, actual ratio is 1.
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i> in Unit <rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i> in Unit <rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i> in Unit <rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i> in Unit <rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_i> in Unit <rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/aempty_fwft_fb> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i> in Unit <rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb> 
+
+Final Macro Processing ...
+
+Processing Unit <cdc_vga_axi_slave> :
+	Found 2-bit shift register for signal <reset_2d>.
+	Found 2-bit shift register for signal <reset_p2d>.
+	Found 2-bit shift register for signal <CDC_inst/display_on_d2>.
+Unit <cdc_vga_axi_slave> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 155
+ Flip-Flops                                            : 155
+# Shift Registers                                      : 3
+ 2-bit shift register                                  : 3
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : cdc_vga_axi_slave.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 373
+#      GND                         : 3
+#      INV                         : 8
+#      LUT2                        : 18
+#      LUT3                        : 48
+#      LUT4                        : 70
+#      LUT5                        : 30
+#      LUT6                        : 62
+#      MUXCY                       : 62
+#      MUXF7                       : 2
+#      VCC                         : 2
+#      XORCY                       : 68
+# FlipFlops/Latches                : 232
+#      FD                          : 6
+#      FDC                         : 23
+#      FDCE                        : 60
+#      FDE                         : 3
+#      FDP                         : 16
+#      FDR                         : 31
+#      FDRE                        : 82
+#      FDS                         : 11
+# RAMS                             : 11
+#      RAM32M                      : 2
+#      RAM32X1D                    : 4
+#      RAMB18E1                    : 1
+#      RAMB36E1                    : 4
+# Shift Registers                  : 3
+#      SRLC16E                     : 3
+# Clock Buffers                    : 2
+#      BUFGP                       : 2
+# IO Buffers                       : 127
+#      IBUF                        : 63
+#      OBUF                        : 64
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z010clg400-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             232  out of  35200     0%  
+ Number of Slice LUTs:                  255  out of  17600     1%  
+    Number used as Logic:               236  out of  17600     1%  
+    Number used as Memory:               19  out of   6000     0%  
+       Number used as RAM:               16
+       Number used as SRL:                3
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    344
+   Number with an unused Flip Flop:     112  out of    344    32%  
+   Number with an unused LUT:            89  out of    344    25%  
+   Number of fully used LUT-FF pairs:   143  out of    344    41%  
+   Number of unique control sets:        24
+
+IO Utilization: 
+ Number of IOs:                         239
+ Number of bonded IOBs:                 129  out of    100   129% (*) 
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                5  out of     60     8%  
+    Number using Block RAM only:          5
+ Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+------------------------------------------------+---------------------------------------------------------------------------------------+-------+
+Clock Signal                                    | Clock buffer(FF name)                                                                 | Load  |
+------------------------------------------------+---------------------------------------------------------------------------------------+-------+
+ACLK                                            | BUFGP                                                                                 | 142   |
+pixclk                                          | BUFGP                                                                                 | 108   |
+CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/N01| NONE(CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/char_gen_rom_inst/CHAR_GEN_ROM_INST)| 1     |
+------------------------------------------------+---------------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+--------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-------+
+Control Signal                                                                                          | Buffer(FF name)                                                                       | Load  |
+--------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-------+
+CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/N01(CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/XST_GND:G)| NONE(CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/char_gen_rom_inst/CHAR_GEN_ROM_INST)| 12    |
+CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/N1(CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/XST_VCC:P) | NONE(CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/char_gen_rom_inst/CHAR_GEN_ROM_INST)| 8     |
+--------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 2.984ns (Maximum Frequency: 335.121MHz)
+   Minimum input arrival time before clock: 2.564ns
+   Maximum output required time after clock: 1.359ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ACLK'
+  Clock period: 2.753ns (frequency: 363.240MHz)
+  Total number of paths / destination ports: 2059 / 390
+-------------------------------------------------------------------------
+Delay:               2.753ns (Levels of Logic = 3)
+  Source:            rd_cdc_count_3 (FF)
+  Destination:       rd_cdc_count_0 (FF)
+  Source Clock:      ACLK rising
+  Destination Clock: ACLK rising
+
+  Data Path: rd_cdc_count_3 to rd_cdc_count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             4   0.282   0.745  rd_cdc_count_3 (rd_cdc_count_3)
+     LUT5:I0->O            1   0.053   0.413  rdfifo_wr_en_node2 (rdfifo_wr_en_node2)
+     LUT6:I5->O            2   0.053   0.419  rdfifo_wr_en_node3 (rdfifo_wr_en_node)
+     LUT3:I2->O           22   0.053   0.535  _n0313_inv1 (_n0313_inv)
+     FDRE:CE                   0.200          rd_cdc_count_0
+    ----------------------------------------
+    Total                      2.753ns (0.641ns logic, 2.112ns route)
+                                       (23.3% logic, 76.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'pixclk'
+  Clock period: 2.984ns (frequency: 335.121MHz)
+  Total number of paths / destination ports: 2995 / 241
+-------------------------------------------------------------------------
+Delay:               2.984ns (Levels of Logic = 2)
+  Source:            CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/char_gen_rom_inst/CHAR_GEN_ROM_INST (RAM)
+  Destination:       CDC_inst/blue_node_2 (FF)
+  Source Clock:      pixclk rising
+  Destination Clock: pixclk rising
+
+  Data Path: CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/char_gen_rom_inst/CHAR_GEN_ROM_INST to CDC_inst/blue_node_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB18E1:CLKARDCLK->DOADO0    9   2.454   0.466  char_gen_rom_inst/CHAR_GEN_ROM_INST (DO0)
+     end scope: 'CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST:DO0'
+     LUT6:I5->O            1   0.053   0.000  CDC_inst/blue_node_2_glue_rst (CDC_inst/blue_node_2_glue_rst)
+     FDS:D                     0.011          CDC_inst/blue_node_2
+    ----------------------------------------
+    Total                      2.984ns (2.518ns logic, 0.466ns route)
+                                       (84.4% logic, 15.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ACLK'
+  Total number of paths / destination ports: 399 / 144
+-------------------------------------------------------------------------
+Offset:              2.564ns (Levels of Logic = 6)
+  Source:            S_AXI_ARLEN<0> (PAD)
+  Destination:       rd_cdc_count_8 (FF)
+  Destination Clock: ACLK rising
+
+  Data Path: S_AXI_ARLEN<0> to rd_cdc_count_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   0.000   0.779  S_AXI_ARLEN_0_IBUF (S_AXI_ARLEN_0_IBUF)
+     LUT6:I0->O            1   0.053   0.413  Mmux_rd_cdc_count[8]_GND_7_o_mux_57_OUT_rs_cy<2>11 (Mmux_rd_cdc_count[8]_GND_7_o_mux_57_OUT_rs_cy<2>1)
+     LUT5:I4->O            4   0.053   0.433  Mmux_rd_cdc_count[8]_GND_7_o_mux_57_OUT_rs_cy<5>11_SW0 (Mmux_rd_cdc_count[8]_GND_7_o_mux_57_OUT_rs_cy<2>)
+     LUT5:I4->O            3   0.053   0.499  Mmux_rd_cdc_count[8]_GND_7_o_mux_57_OUT_rs_cy<5>11 (Mmux_rd_cdc_count[8]_GND_7_o_mux_57_OUT_rs_cy<5>1)
+     LUT6:I4->O            1   0.053   0.000  Mmux_rd_cdc_count[8]_GND_7_o_mux_57_OUT_rs_xor<8>11_G (N49)
+     MUXF7:I1->O           1   0.217   0.000  Mmux_rd_cdc_count[8]_GND_7_o_mux_57_OUT_rs_xor<8>11 (rd_cdc_count[8]_GND_7_o_mux_57_OUT<8>)
+     FDRE:D                    0.011          rd_cdc_count_8
+    ----------------------------------------
+    Total                      2.564ns (0.440ns logic, 2.124ns route)
+                                       (17.2% logic, 82.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'pixclk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.878ns (Levels of Logic = 2)
+  Source:            ARESETN (PAD)
+  Destination:       Mshreg_reset_p2d (FF)
+  Destination Clock: pixclk rising
+
+  Data Path: ARESETN to Mshreg_reset_p2d
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.000   0.399  ARESETN_IBUF (ARESETN_IBUF)
+     INV:I->O              2   0.067   0.405  ARESETN_INV_2_o1_INV_0 (reset_p1d_rstpot)
+     SRLC16E:D                 0.007          Mshreg_reset_p2d
+    ----------------------------------------
+    Total                      0.878ns (0.074ns logic, 0.804ns route)
+                                       (8.4% logic, 91.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ACLK'
+  Total number of paths / destination ports: 27 / 26
+-------------------------------------------------------------------------
+Offset:              1.359ns (Levels of Logic = 2)
+  Source:            wrt_cs_FSM_FFd2 (FF)
+  Destination:       S_AXI_WREADY (PAD)
+  Source Clock:      ACLK rising
+
+  Data Path: wrt_cs_FSM_FFd2 to S_AXI_WREADY
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             23   0.282   0.625  wrt_cs_FSM_FFd2 (wrt_cs_FSM_FFd2)
+     LUT2:I0->O            1   0.053   0.399  wrt_cs_S_AXI_WREADY1 (S_AXI_WREADY_OBUF)
+     OBUF:I->O                 0.000          S_AXI_WREADY_OBUF (S_AXI_WREADY)
+    ----------------------------------------
+    Total                      1.359ns (0.335ns logic, 1.024ns route)
+                                       (24.7% logic, 75.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'pixclk'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              0.681ns (Levels of Logic = 1)
+  Source:            red_out_4 (FF)
+  Destination:       red_out<4> (PAD)
+  Source Clock:      pixclk rising
+
+  Data Path: red_out_4 to red_out<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.282   0.399  red_out_4 (red_out_4)
+     OBUF:I->O                 0.000          red_out_4_OBUF (red_out<4>)
+    ----------------------------------------
+    Total                      0.681ns (0.282ns logic, 0.399ns route)
+                                       (41.4% logic, 58.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock ACLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ACLK           |    2.753|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock pixclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+pixclk         |    2.984|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 51.00 secs
+Total CPU time to Xst completion: 50.74 secs
+ 
+--> 
+
+Total memory usage is 492408 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   82 (   0 filtered)
+Number of infos    :   19 (   0 filtered)
+

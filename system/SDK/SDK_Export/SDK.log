@@ -1,0 +1,10 @@
+06:36:37.845 INFO  - Processing command line option -hwspec D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/ZYBO_CDC_VGA/system/SDK/SDK_Export/hw/system.xml. 
+06:39:13.973 INFO  - FPGA configured successfully with bitstream "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/ZYBO_CDC_VGA/system/SDK/SDK_Export/system_hw_platform/system.bit" 
+06:39:39.509 INFO  - Processor reset is completed for ps7_cortexa9_0 
+05:20:55.933 INFO  - FPGA configured successfully with bitstream "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/ZYBO_CDC_VGA/system/SDK/SDK_Export/system_hw_platform/system.bit" 
+05:21:39.871 INFO  - Processor reset is completed for ps7_cortexa9_0 
+05:21:39.971 INFO  - PS initialization will be done as it is not done before. 
+05:21:39.971 INFO  - Running PS initialization.... 
+05:21:40.434 INFO  - ps7_init is completed. 
+05:21:40.534 INFO  - ps7_post_config is completed. 
+05:21:40.634 INFO  - PS Initialization is complete. 
