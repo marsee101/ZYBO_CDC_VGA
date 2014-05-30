@@ -3,8 +3,8 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\synthesis\xst_temp_dir\
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.30 secs
  
 --> 
 TABLE OF CONTENTS
@@ -174,7 +174,6 @@ WARNING:HDLCompiler:413 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/ZYBO_CDC_VGA/syste
 WARNING:HDLCompiler:413 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/ZYBO_CDC_VGA/system/pcores/cdc_vga_axi_slave_v1_00_a/hdl/verilog/disp_timing.v" Line 64: Result of 12-bit expression is truncated to fit in 11-bit target.
 WARNING:HDLCompiler:1127 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/ZYBO_CDC_VGA/system/pcores/cdc_vga_axi_slave_v1_00_a/hdl/verilog/CharDispCtrler.v" Line 95: Assignment to page_start ignored, since the identifier is never used
 WARNING:HDLCompiler:413 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/ZYBO_CDC_VGA/system/pcores/cdc_vga_axi_slave_v1_00_a/hdl/verilog/CharDispCtrler.v" Line 160: Result of 16-bit expression is truncated to fit in 15-bit target.
-WARNING:HDLCompiler:634 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/ZYBO_CDC_VGA/system/pcores/cdc_vga_axi_slave_v1_00_a/hdl/verilog/CharDispCtrler.v" Line 38: Net <reset_pxi> does not have a driver.
 Back to vhdl to continue elaboration
 Back to verilog to continue elaboration
 
@@ -294,7 +293,6 @@ Synthesizing Unit <CharDispCtrler>.
     Related source file is "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/ZYBO_CDC_VGA/system/pcores/cdc_vga_axi_slave_v1_00_a/hdl/verilog/CharDispCtrler.v".
         RESOLUTION = 4
 INFO:Xst:3210 - "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/ZYBO_CDC_VGA/system/pcores/cdc_vga_axi_slave_v1_00_a/hdl/verilog/CharDispCtrler.v" line 92: Output port <page_start> of the instance <disp_timing_inst> is unconnected or connected to loadless signal.
-WARNING:Xst:653 - Signal <reset_pxi> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 1-bit register for signal <display_on_d2>.
     Found 3-bit register for signal <red_node>.
     Found 3-bit register for signal <green_node>.
@@ -552,17 +550,16 @@ Final Macro Processing ...
 Processing Unit <system_cdc_vga_axi_slave_0_wrapper> :
 	Found 2-bit shift register for signal <cdc_vga_axi_slave_0/reset_p2d>.
 	Found 2-bit shift register for signal <cdc_vga_axi_slave_0/reset_2d>.
-	Found 2-bit shift register for signal <cdc_vga_axi_slave_0/CDC_inst/display_on_d2>.
 Unit <system_cdc_vga_axi_slave_0_wrapper> processed.
 
 =========================================================================
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 191
- Flip-Flops                                            : 191
-# Shift Registers                                      : 3
- 2-bit shift register                                  : 3
+# Registers                                            : 193
+ Flip-Flops                                            : 193
+# Shift Registers                                      : 2
+ 2-bit shift register                                  : 2
 
 =========================================================================
 
@@ -598,18 +595,18 @@ Primitive and Black Box Usage:
 #      MUXF7                       : 1
 #      VCC                         : 2
 #      XORCY                       : 76
-# FlipFlops/Latches                : 194
+# FlipFlops/Latches                : 195
 #      FDC                         : 22
 #      FDCE                        : 11
-#      FDE                         : 3
-#      FDR                         : 35
+#      FDE                         : 2
+#      FDR                         : 37
 #      FDRE                        : 112
 #      FDS                         : 11
 # RAMS                             : 17
 #      RAMB18E1                    : 1
 #      RAMB36E1                    : 16
-# Shift Registers                  : 3
-#      SRLC16E                     : 3
+# Shift Registers                  : 2
+#      SRLC16E                     : 2
 # Others                           : 1
 #      afifo_sm                    : 1
 
@@ -620,17 +617,17 @@ Selected Device : 7z010clg400-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             194  out of  35200     0%  
- Number of Slice LUTs:                  231  out of  17600     1%  
+ Number of Slice Registers:             195  out of  35200     0%  
+ Number of Slice LUTs:                  230  out of  17600     1%  
     Number used as Logic:               228  out of  17600     1%  
-    Number used as Memory:                3  out of   6000     0%  
-       Number used as SRL:                3
+    Number used as Memory:                2  out of   6000     0%  
+       Number used as SRL:                2
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    277
-   Number with an unused Flip Flop:      83  out of    277    29%  
-   Number with an unused LUT:            46  out of    277    16%  
-   Number of fully used LUT-FF pairs:   148  out of    277    53%  
+ Number of LUT Flip Flop pairs used:    278
+   Number with an unused Flip Flop:      83  out of    278    29%  
+   Number with an unused LUT:            48  out of    278    17%  
+   Number of fully used LUT-FF pairs:   147  out of    278    52%  
    Number of unique control sets:        14
 
 IO Utilization: 
@@ -674,7 +671,7 @@ Asynchronous Control Signals Information:
 Control Signal                                                                                                                                  | Buffer(FF name)                                                                                           | Load  |
 ------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+-------+
 cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/N01(cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/XST_GND:G)| NONE(cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/char_gen_rom_inst/CHAR_GEN_ROM_INST)| 12    |
-cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/N1(cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/XST_VCC:P) | NONE(cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/char_gen_rom_inst/CHAR_GEN_ROM_INST)| 8     |
+cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/N11(cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/XST_VCC:P)| NONE(cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/char_gen_rom_inst/CHAR_GEN_ROM_INST)| 8     |
 ------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+-------+
 
 Timing Summary:
@@ -719,7 +716,7 @@ Delay:               3.069ns (Levels of Logic = 5)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'pixclk'
   Clock period: 2.984ns (frequency: 335.121MHz)
-  Total number of paths / destination ports: 2817 / 258
+  Total number of paths / destination ports: 2819 / 260
 -------------------------------------------------------------------------
 Delay:               2.984ns (Levels of Logic = 2)
   Source:            cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/char_gen_rom_inst/CHAR_GEN_ROM_INST (RAM)
@@ -860,14 +857,14 @@ pixclk         |    2.984|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 41.00 secs
-Total CPU time to Xst completion: 40.27 secs
+Total REAL time to Xst completion: 46.00 secs
+Total CPU time to Xst completion: 45.82 secs
  
 --> 
 
-Total memory usage is 474616 kilobytes
+Total memory usage is 491196 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   56 (   0 filtered)
+Number of warnings :   54 (   0 filtered)
 Number of infos    :   11 (   0 filtered)
 

@@ -35,7 +35,7 @@ module CharDispCtrler # (
 	wire axi4clk;
 	wire pixclk;
 	wire reset_axi;
-	wire reset_pxi;
+	wire reset_pix;
 	wire [log2(ALL_CHAR_SIZE)-1:0] processor_addr;
 	wire [15:0] processor_din;
 	wire [15:0] processor_dout;
@@ -102,7 +102,7 @@ module CharDispCtrler # (
 	);
 
 	always @(posedge pixclk) begin // display_onを2クロック遅延する。下の表示部分はframe_buffer, キャラジェネROMで2クロックデータが遅延している。それを吸収するためにdisplay_onを2クロック遅延した信号を作る
-		if (reset_pxi) begin
+		if (reset_pix) begin
 			display_on_d1 <= 1'b0;
 			display_on_d2 <= 1'b0;
 		end else begin

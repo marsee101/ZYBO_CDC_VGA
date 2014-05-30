@@ -8,3 +8,28 @@
 05:21:40.434 INFO  - ps7_init is completed. 
 05:21:40.534 INFO  - ps7_post_config is completed. 
 05:21:40.634 INFO  - PS Initialization is complete. 
+04:37:53.040 INFO  - FPGA configured successfully with bitstream "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/ZYBO_CDC_VGA/system/SDK/SDK_Export/system_hw_platform/system.bit" 
+04:38:30.577 INFO  - Processor reset is completed for ps7_cortexa9_0 
+04:38:30.677 INFO  - PS initialization will be done as it is not done before. 
+04:38:30.677 INFO  - Running PS initialization.... 
+04:38:31.134 INFO  - ps7_init is completed. 
+04:38:31.234 INFO  - ps7_post_config is completed. 
+04:38:31.335 INFO  - PS Initialization is complete. 
+04:39:20.944 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+21:05:42.558 INFO  - FPGA configured successfully with bitstream "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/ZYBO_CDC_VGA/system/SDK/SDK_Export/system_hw_platform/system.bit" 
+21:06:12.381 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:06:12.480 INFO  - PS initialization will be done as it is not done before. 
+21:06:12.480 INFO  - Running PS initialization.... 
+21:06:13.024 INFO  - ps7_init is completed. 
+21:06:13.124 INFO  - ps7_post_config is completed. 
+21:06:13.233 INFO  - PS Initialization is complete. 
+21:09:34.780 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+04:33:20.137 INFO  - Processing command line option -hwspec D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/ZYBO_CDC_VGA/system/SDK/SDK_Export/hw/system.xml. 
+04:38:29.220 INFO  - FPGA configured successfully with bitstream "D:/HDL/FndtnISEWork/Zynq-7000/ZYBO/ZYBO_CDC_VGA/system/SDK/SDK_Export/system_hw_platform/system.bit" 
+04:38:55.698 INFO  - Processor reset is completed for ps7_cortexa9_0 
+04:38:55.808 INFO  - PS initialization will be done as it is not done before. 
+04:38:55.809 INFO  - Running PS initialization.... 
+04:38:56.155 INFO  - ps7_init is completed. 
+04:38:56.255 INFO  - ps7_post_config is completed. 
+04:38:56.355 INFO  - PS Initialization is complete. 
+04:39:53.279 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

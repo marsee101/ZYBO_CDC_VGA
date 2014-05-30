@@ -5,7 +5,7 @@ C:\HDL\Xilinx\14.7\ISE_DS\ISE\.
    "system_top" is an NCD, version 3.2, device xc7z010, package clg400, speed -1
 Opened constraints file system_top.pcf.
 
-THU 20 MAR 6:9:8 2014
+SAT 31 MAY 4:27:49 2014
 
 C:\HDL\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe -intstyle ise -w -g Binary:no -g CRC:Enable -g ProgPin:PullUp -g InitPin:Pullup -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g Disable_JTAG:No -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g OverTempPowerDown:Disable -g USR_ACCESS:None -g JTAG_XADC:Enable -g DCIUpdateMode:AsRequired -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g Match_cycle:Auto -g Security:None -g ICAP_select:Auto -g DonePipe:Yes -g DriveDone:No system_top.ncd 
 

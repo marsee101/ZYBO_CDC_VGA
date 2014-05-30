@@ -3,8 +3,8 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to D:\HDL\FndtnISEWork\Zynq-7000\ZYBO\ZYBO_CDC_VGA\system\synthesis\xst_temp_dir\
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.24 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.25 secs
  
 --> 
 TABLE OF CONTENTS
@@ -613,13 +613,13 @@ Primitive and Black Box Usage:
 #      MUXF7                       : 1
 #      VCC                         : 4
 #      XORCY                       : 76
-# FlipFlops/Latches                : 286
+# FlipFlops/Latches                : 287
 #      FD                          : 18
 #      FDC                         : 30
 #      FDCE                        : 61
-#      FDE                         : 3
+#      FDE                         : 2
 #      FDP                         : 16
-#      FDR                         : 35
+#      FDR                         : 37
 #      FDRE                        : 112
 #      FDS                         : 11
 # RAMS                             : 23
@@ -627,8 +627,8 @@ Primitive and Black Box Usage:
 #      RAM32X1D                    : 4
 #      RAMB18E1                    : 1
 #      RAMB36E1                    : 16
-# Shift Registers                  : 3
-#      SRLC16E                     : 3
+# Shift Registers                  : 2
+#      SRLC16E                     : 2
 # Clock Buffers                    : 3
 #      BUFG                        : 3
 # Others                           : 2
@@ -642,18 +642,18 @@ Selected Device : 7z010clg400-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             286  out of  35200     0%  
- Number of Slice LUTs:                  378  out of  17600     2%  
+ Number of Slice Registers:             287  out of  35200     0%  
+ Number of Slice LUTs:                  377  out of  17600     2%  
     Number used as Logic:               359  out of  17600     2%  
-    Number used as Memory:               19  out of   6000     0%  
+    Number used as Memory:               18  out of   6000     0%  
        Number used as RAM:               16
-       Number used as SRL:                3
+       Number used as SRL:                2
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    514
-   Number with an unused Flip Flop:     228  out of    514    44%  
-   Number with an unused LUT:           136  out of    514    26%  
-   Number of fully used LUT-FF pairs:   150  out of    514    29%  
+ Number of LUT Flip Flop pairs used:    515
+   Number with an unused Flip Flop:     228  out of    515    44%  
+   Number with an unused LUT:           138  out of    515    26%  
+   Number of fully used LUT-FF pairs:   149  out of    515    28%  
    Number of unique control sets:        28
 
 IO Utilization: 
@@ -698,8 +698,8 @@ Asynchronous Control Signals Information:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Control Signal                                                                                                                                                                          | Buffer(FF name)                                                                                                                                            | Load  |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-cdc_vga_axi_slave_0/N1(cdc_vga_axi_slave_0/XST_VCC:P)                                                                                                                                   | NONE(cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem5)                                                                         | 2976  |
-cdc_vga_axi_slave_0/blue_out<0>(cdc_vga_axi_slave_0/XST_GND:G)                                                                                                                          | NONE(cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem5)                                                                         | 1728  |
+cdc_vga_axi_slave_0/N1(cdc_vga_axi_slave_0/XST_VCC:P)                                                                                                                                   | NONE(cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem9)                                                                         | 2976  |
+cdc_vga_axi_slave_0/blue_out<0>(cdc_vga_axi_slave_0/XST_GND:G)                                                                                                                          | NONE(cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/frame_buffer_inst/Mram_mem9)                                                                         | 1728  |
 cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/N0(cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/XST_GND:G) | NONE(cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST)| 12    |
 cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/N11(cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/XST_VCC:P)| NONE(cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST)| 8     |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
@@ -746,7 +746,7 @@ Delay:               3.069ns (Levels of Logic = 5)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clock_generator_0/clock_generator_0/SIG_MMCM1_CLKOUT0'
   Clock period: 2.984ns (frequency: 335.121MHz)
-  Total number of paths / destination ports: 2817 / 258
+  Total number of paths / destination ports: 2819 / 260
 -------------------------------------------------------------------------
 Delay:               2.984ns (Levels of Logic = 2)
   Source:            cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST/cdc_vga_axi_slave_0/CDC_inst/char_gen_rom_inst/CHAR_GEN_ROM_INST (RAM)
@@ -910,12 +910,12 @@ processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>|    3.069|     
 =========================================================================
 
 
-Total REAL time to Xst completion: 52.00 secs
-Total CPU time to Xst completion: 51.66 secs
+Total REAL time to Xst completion: 55.00 secs
+Total CPU time to Xst completion: 55.11 secs
  
 --> 
 
-Total memory usage is 509304 kilobytes
+Total memory usage is 509116 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    7 (   0 filtered)

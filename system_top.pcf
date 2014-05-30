@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Thu Mar 20 06:07:37 2014
+// Written by: Map P.20131013 on Sat May 31 04:25:50 2014
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -957,13 +957,17 @@ TIMEGRP system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = BEL
         BEL
         "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/temp_pointer_0"
         BEL
-        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/h_sync_2"
-        BEL
         "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/v_sync_2"
         BEL
-        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/v_sync_1"
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/h_sync_2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_on_d2"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_on_d1"
         BEL
         "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/h_sync_1"
+        BEL
+        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/v_sync_1"
         BEL
         "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/disp_timing_inst/v_point_10"
         BEL
@@ -1048,10 +1052,6 @@ TIMEGRP system_i_clock_generator_0_clock_generator_0_SIG_MMCM1_CLKOUT0 = BEL
         "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_1"
         BEL
         "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/red_node_0"
-        BEL
-        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/Mshreg_display_on_d2"
-        BEL
-        "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/CDC_inst/display_on_d2"
         BEL
         "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/Mshreg_reset_p2d"
         BEL "system_i/cdc_vga_axi_slave_0/cdc_vga_axi_slave_0/reset_p2d" PIN

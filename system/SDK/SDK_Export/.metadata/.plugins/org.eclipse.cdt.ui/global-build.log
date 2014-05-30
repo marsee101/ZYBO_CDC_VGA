@@ -69,3 +69,18 @@ make: `all' に対して行うべき事はありません.
 05:21:27 **** Incremental Build of configuration Debug for project cdc_test ****
 make all 
 make: `all' に対して行うべき事はありません.
+04:36:34 **** Build of project cdc_test_bsp ****
+make -k all 
+'Finished building libraries'
+04:36:36 **** Build of configuration Debug for project cdc_test ****
+make all 
+make: `all' に対して行うべき事はありません.
+04:38:06 **** Incremental Build of configuration Debug for project cdc_test ****
+make all 
+make: `all' に対して行うべき事はありません.
+21:05:59 **** Incremental Build of configuration Debug for project cdc_test ****
+make all 
+make: `all' に対して行うべき事はありません.
+04:38:43 **** Incremental Build of configuration Debug for project cdc_test ****
+make all 
+make: `all' に対して行うべき事はありません.
